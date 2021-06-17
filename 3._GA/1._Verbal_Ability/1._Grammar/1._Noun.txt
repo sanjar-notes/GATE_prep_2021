@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T17:39:59+05:30
+
+====== 1. Noun ======
+Created Tuesday 02 February 2021
+
+A noun is a word for name, place, animal, action. Anything that is not part of the grammar keywords.
+
+1. Proper noun - A name, i.e it must be somewhat arbitrary. e.g. Jason, Linux etc
+2. Common noun - Denote a class of objects. e.g. Car, pen etc
+
+* Nouns may be used in singular or plural form.
+* Collective nouns - a gang of thiever, a clowder of cats.

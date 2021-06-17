@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-31T13:05:18+05:30
+
+====== 3. Uniform distribution ======
+Created Sunday 31 January 2021
+
+This is simply a constant function.

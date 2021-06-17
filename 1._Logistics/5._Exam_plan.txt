@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-12T00:44:14+05:30
+
+====== 5. Exam plan ======
+Created Tuesday 12 January 2021
+
+What order to follow during exam:
+1. See the question paper fully and identify easy areas.
+2. Solve GA first
+3. Solve 2 mark questions, leave difficult ones untouched.
+4. Solve 1 mark questions, leave difficult ones untouched.
+5. Circle back for more.

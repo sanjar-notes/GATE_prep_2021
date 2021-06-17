@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:12:21+05:30
+
+====== 4. Blood relations ======
+Created Monday 01 February 2021
+
+* Tree diagrams are the easiest way to solve these problems.
+Draw the tree in stages(where each stage actually refers to all people in that generation):
+* 1st stage → Grandparental
+* 2nd stage → Parental
+* 3rd stage → Yourself and equivalents
+* 4th stage → Children
+* 5th stage → Grandchildren
+=== Relation jargon ===
+{{./pasted_image.png?height=600}}
+* Knew all
+=== Tricks to solve blood-relation ===
+* Encoding things properly makes it easily solvable
+1. Proper nouns must start with capital
+2. Where gender is important, make a bar on top of females
+3. Put older people on the top of younger generation ones.
+4. For spousal relation, use single implication(→), with male on the left(preferably).
+5. To denote relation(if unknown or otherwise) use ... ellipsis.
+6. When gender is not confirmed use a an enclosing box around the person.

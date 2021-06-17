@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:09:49+05:30
+
+====== 4. SI and CI ======
+Created Monday 01 February 2021
+
+=== Jargon ===
+* Principal(P) - Amount the borrower gets
+* Interest - Excessive amount that the lender recieves till the loan ends.
+* Interest rate(R) - INR/s, rate of money that the lender gets until loan ends. Expressed in percentage.
+
+=== Simple Interest ===
+* Etymology(simple) - i.e varies linearly with time.
+* SI = P x R x T/100 where T is in years.
+* Amount(A) = P + SI
+
+=== Compound Interest ===
+* Etymology(compound) - i.e varies exponentially, considering the new amount(principal + interest) as the new amount.
+* A_{n} = P(1+R/100)^{n}, where A_{n} is the amount after **n** years. So A_{0} = P, i.e just as the money is lent.
+* CI = A_{n} - A_{0} = P((1+R/100)^{n} - 1) where n = number of years.
+					  = P((1+R/200)^{2n} - 1)

@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-31T11:08:51+05:30
+
+====== 2. Normal Distribution ======
+Created Sunday 31 January 2021
+
+* This also called a Gaussian Distribution.
+* It is pretty common in various phenomena.
+
+=== Assumptions ===
+* Continuous RV
+* Single maxima at X=mean
+* Rate of PDF ∝ P(x) * x
+
+=== Derivation of PDF ===
+The assumptions are enough to derive the expression
+{{./pasted_image.png}}
+
+=== Equations ===
+* Expected value = μ
+* Variance = σ^{2}
+
+Note: This is just a coincidence, the definition of mean(expected value) and probability have nothing to do with the normal of distribution of the dataset.

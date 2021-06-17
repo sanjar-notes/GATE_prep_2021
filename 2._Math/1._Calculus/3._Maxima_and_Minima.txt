@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T16:27:19+05:30
+
+====== 3. Maxima and Minima ======
+Created Monday 18 January 2021
+
+=== Monotonicity ===
+**Jargon**
+	* An function is said to be monotonic over an interval [a, b] if sign of the derivative in the interval remains the same.
+	* In other words, the function either increases or decreases or stays the same throughout the interval.
+	* A function is called monotonous(without mentioning an interval) if it is monotonous throughout the domain.
+* If a monotonic function is invertible, then it has to be either increasing or decreasing.
+* If ''f'' is monotonic over [a, b], then ''f(a)'' and ''f(b)'' are optimal values.
+* Monotonicity is a requirement when simplifying inequalities
+
+=== Finding optima ===
+Algorithm:
+1. Find derivative and set it to zero.
+2. Solve the equation for roots.
+3. Find the second derivative and check it's value by setting the roots, if:
+	a. f'' is +ve, then the root is an minima. Tip of the Happy face.
+	b. f'' is -ve, then the root is a maxima. Tip of the Sad face.
+	c. f'' is zero, test fails, can't say whether optima. May or may not be.
+4. If the f' or f'' does not exist for a point, then we have to check it's value manually, i.e by inspection with other optima
+
+=== Local vs Global optima ===
+* All optima found using the algorithm are local optima, i.e there may be other optimums that are better.
+* To declare a local optimum as the global optimum, there are two methods:
+	a. Check every optima
+		OR
+	b. Prove that the function is monotonic

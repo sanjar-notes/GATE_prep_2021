@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-22T08:09:24+05:30
+
+====== 3. Determinants ======
+Created Friday 22 January 2021
+
+This is a number, which is defined only for square matrices.
+
+=== Determinant ===
+Determinant of a 2x2 matrix {{./equation.png?type=equation}} is (ad-bc).
+
+=== Minor ===
+M_{ij} represents the determinant of the submatrix formed when ith row and jth column are deleted
+
+=== Cofactor ===
+Takes into account position of the element.
+{{./pasted_image.png?height=200}}
+C_{ij} = (-1)^{i+j }M_{ij}
+
+=== Determinant of higher matrices(>2) ===
+|A| = Sum of the product of elements and their corresponding cofactors, of any row or column.
+
+=== Singular Matrix ===
+A Matrix with the determinant of zero.
+
+=== Properties of determinants ===
+1. Sign of the determinant changes if any two rows or two columns are interchanged.
+2. |A^{T}| = |A|
+3. |AB| = |A|*|B| ...generalizable
+4. |kA| = k^{n}|A|, where n = order
+5. Determinant is zero if:
+	a. Two rows are equal
+	b. Two columns are equal
+	c. All elements of a row or column are zero
+6. Let A be a square matrix such that each element of a row or column of A is expressed as the sum of two or more terms. Then |A| can be expressed as the sum of the determinants of two or more matrices of the same order.
+
+=== Elementary Tranformations on a matrix ===
+There are 3:
+1. Interchanging any two rows(or columns).
+2. Multiply a row/column by a scalar.
+3. row1 = k1*row1 + k2*row2. Can be done for column too.
+
+Why only these: These don't change the determinant predictively, except that they never change the determinant value between 0 and non-zero.

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T17:58:43+05:30
+
+====== 5. Preposition ======
+Created Tuesday 02 February 2021
+
+This is used to position some word w.r.t a noun.
+
+Types of preposition:
+* For position - at, in, between, among, above, beside
+* Direction - To, at, against, for, from, into, off
+* Temporal - before, after

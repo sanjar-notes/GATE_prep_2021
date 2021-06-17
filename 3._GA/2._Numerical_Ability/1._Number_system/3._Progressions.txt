@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T00:54:55+05:30
+
+====== 3. Progressions ======
+Created Thursday 04 February 2021
+
+Note: a = first term, n = (first n number of terms) or (1 based position)
+1. AP
+	{{./pasted_image005.png}}
+	d = common difference
+	* Use ''a±2k*d'' for even assumption
+	* Use ''a±(2k+1)*d'' for odd assumption
+2. GP - a, ar, 
+	{{./pasted_image006.png}}
+	r = common ratio
+	* Infinite GP, assuming
+		Sum:
+			* Diverging GP - ''±∞'' or ''can't say''
+			* Converging - finite value = ''a/(1-r)'', assuming ''|r| < 1''
+3. HP - harmonic - Reciprocal each term of AP
+	* ''a''_{''n''}'' = 1/(1+(n-1)*d)''
+	* Sum - don't have a formula
+
+=== Averages, mean, median and mode ===
+[[2. Math:4. Probability and Statistics:Statistics:1. Basics|Already covered]]
+
+=== For summations ===
+* Diagonal cancellation after each term is smallest improper fractions.
+* Double sums: See if independence holds.
+* For product, take log and try to add

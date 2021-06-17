@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-31T07:07:40+05:30
+
+====== 9. Poisson Distribution ======
+Created Sunday 31 January 2021
+
+**Situation** - We have a random experiment where events are independent and binary in nature, labelled success or failure. Same as binomial.
+**Difference from Binomial** - The experiment is discrete but infinite(number of trials very high).
+**mAid:** 
+	* poisoned binomial - asymptotic case, i.e n → ∞
+	* The PDF is simple → e^{-λ} EG(x) where λ is the average rate of success over a long time.
+
+=== Equations ===
+* Assumptions for Poisson
+	* n → ∞ (very large)
+	* p → 0 (very small)
+	* np = 1
+* We use the expected value as a param, because it can be calculated empirically.
+* PDF → f(X=r) = λ^{r}e^{-λ}/r!
+* Mean = variance = λ

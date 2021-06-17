@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-24T03:53:24+05:30
+
+====== 1. Basics ======
+Created Sunday 24 January 2021
+
+* Statement - A statement that is either false or true. i.e It cannot be both.
+* NOT - this is a unary operation. It flips the value.
+
+=== Universal Connectives ===
+* AND(conjunction) - represented by . True if all statements are true.
+* OR(disjunction) - represented by +. True if atleast one statement is true.
+* NOT - unary for flipping 
+
+
+All basic operations here are:
+* Distributive
+* Associative
+* Commutative
+
+=== More connectives ===
+* Implication - a → b - equivalent to  ~A + B
+* XOR - represented by - True if parity is odd ⇒ A.B'+A'.B
+* Double implication - (a → b).(b → a) ≡ A.B + ~A.~B
+* NAND - (A.B)'
+* NOR - (A+B)'
+
+=== Duality Law ===
+A' is said to be the dual of A if we get A' when all AND and ORs are interchanged in A.
+
+=== Logical Identitites ===
+* Idempotent - A.A = A and A+A=A
+* Identity - A+0 = A and A.1 = A
+* Commutative - For both AND and OR
+* Associative(or absortion) - A+(B+C) = (A+B)+C. Same for AND
+* Distributive - A.(B+C) = A.B + A.C
+* De-morgan's laws - (A+B)' = A'.B' and (AB)' = A'+B'
+* Involution - (A')' = A
+* A+1 = 1 and A.0 = 0
+
+=== Some about implications ===
+Given A → B
+* Converse - B → A
+* Inverse - ~A → ~B
+* Contrapositive - ~B → ~A
+Note: Contrapositive is the same as original.
+
+=== Jargon ===
+Tautology - Always True
+Contradiction - Always False

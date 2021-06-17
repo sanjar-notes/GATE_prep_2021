@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:09:33+05:30
+
+====== 2. Percentage ======
+Created Monday 01 February 2021
+
+* Percentage of x in total y = x/y * 100
+
+=== Percentage problems are just lingo ===
+* Percentage decrease/increase = Δ/original * 100
+* Decrease/Increase number by some percentage p. New value = (1-p*0.01)* old_value

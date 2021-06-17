@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-24T05:42:43+05:30
+
+====== 3. Composition Of functions ======
+Created Sunday 24 January 2021
+
+**Definiton**
+Let f:A → B and g:B → C, then the composite function of ''g'' and ''f'' mapping A to C is denoted by ''g''o''f''.
+* gof(x) = g(f(x))
+* gof is a short form.
+{{./pasted_image001.png}}
+Note: 
+
+* gof exists only if Domain(f) = Range(g)
+* If f and g are bijective then gof is also bijective.
+* We can chain functions to any length, given their domain and range are the same for each link.

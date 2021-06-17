@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-26T12:01:02+05:30
+
+====== 3. Bipartite Graphs ======
+Created Tuesday 26 January 2021
+
+A simple graph is called bipartite if the nodes can be split into two disjoint groups V_{1} and V_{2}, in such a way that no two adjacent nodes must be together(in the same group).
+
+=== How to check if a graph is bipartite ===
+A simple traversal will do.
+Because bipartitieness is applicable everywhere. Start coloring(marking the nodes), if at any point this leads to an error(i.e adjacent nodes end up with the same color), then the graph is not bipartite.
+
+**Complete Bipartite graph **- If a every node of V_{1} is connected to every other node in V_{2}, then the graph is called complete bipartite. You can choose the groups at your convenience.
+* It is denoted by K_{m, n}
+{{./pasted_image.png}}
+* Checking if complete bipartite
+	1. Check if bipartite
+	2. Check if |E| = m * n
+* Examples - A group of committed couples

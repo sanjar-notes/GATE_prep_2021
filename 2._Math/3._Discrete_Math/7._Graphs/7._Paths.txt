@@ -1,0 +1,67 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-27T04:34:44+05:30
+
+====== 7. Paths ======
+Created Wednesday 27 January 2021
+
+=== Path ===
+* Path - an ordered list of edges. Informal - walk
+* Simple path - a path without repetition of any edges(except if they begin and end at the same vertex). Informal - trail
+* Circuit - A path which begins and ends at the same vertex. Informal - closed walk, closed path
+* Simple circuit - a path without repetition of vertices.
+
+MAID:
+* Path is concerned only about edges
+* Circuit is concerned only about vertices.
+
+Fun examples of paths
+* Collaboration graphs - Erdos number(shortest path of the person for Paul Erdos - for mathematicians mostly), Bacon number(shortest path of collaboration with Kevin Bacon) in Hollywood.
+
+=== Connectedness ===
+* A graph is said to be connected if you can reach any vertex by staring from any other vertex. For directed graphs - you have to follow the edges.
+* If degree of all vertices is nonzero, then an undirected graph is said to be "connected".
+
+=== Strongly connected ===
+A graph is said to be strongly connected if there's a path from vertex A to B and from B to A ∀ A, B ∈ V, A≠B.
+* SCC - strongly connected component - a strongly connected subgraph
+
+=== Cycle ===
+A graph is said to have a cycle if it is possible to define atleast one path where the starting and ending vertex is the same. 
+* Self loops are counted as a cycle.
+
+=== Euler stuff(mAid: All E) ===
+Euler circuit - A circuit containing all edges without repetition.
+Euler path - A path containing all edges without repetition.
+* Repetition - repetition of edges
+
+Criteria for Euler stuff:
+* Euler circuit exists ↔ All Degrees are even. Greedy algroithm does it.
+* Euler path exists ↔ Two vertices have odd degree.
+Note: Both(Epath and Ecircuit) cannot exist together.
+
+Trivia
+* mAid - we are concerned with vertices because the study originated from Konigsberg river crossing problem, which Euler solved in 1736.
+
+=== Hamiltonian stuff(mAid: All V) ===
+Hamiltonian path - A path containing all vertices without repetition.
+Hamiltonian circuit - A path containing all vertices without repetition.
+* Repetition - repetition of vertices
+
+Criteria for hCircuit
+* No necessary conditions are known. 
+* Disqualifiers
+ - Hamiltonian circuit cannot exist if any vertex of degree 1 is present.
+* A Hamilton circuit cannot contain a smaller circuit within it.
+* Although some theorems do give sufficient Hamiltonian circuits. How(?) → It is quite simple, if a graph is dense then there are more chances that a hamiltonian circuit exists. So if a graph is dense beyond a threshold, then we can even say for sure that the hCircuit exists for sure.
+	a. **Dirac's Theorem** - If every vertex has a minimum of n/2 as degree, then a hamiltonian circuit exists.
+	b. **Orge's Theorem** - If for any two vertices u, v, deg(u)+deg(v) ≥ n, then a hamiltonian circuit exists.
+	* n = |V| here and n≥3 should hold. This is a basic criteria for any kind of circuit, not specific to these theorems or Hamiltonian circuits.
+	* These are sufficient conditions: A hamiltonian circuit may exist even if these theorems are not satisied.
+	* Yes, Dirac is actually the stepson of PAM Dirac.
+Trivia
+* mAid - we are concerned with vertices because the study originated from Hamilton's Around the world puzzle.
+
+
+=== TSP ===
+Statement → Find a Hamilton circuit in a complete graph such that the total weight of its edges is as small as possible.

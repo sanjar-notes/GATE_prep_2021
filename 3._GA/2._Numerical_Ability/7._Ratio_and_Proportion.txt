@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:10:26+05:30
+
+====== 7. Ratio and Proportion ======
+Created Monday 01 February 2021
+
+=== Ratio ===
+A unitless fraction
+Denominator ↔ Antecedent
+Numerator ↔ Consequent
+
+**Basic rule**
+If {{./pasted_image.png}} = λ, then:
+λ = {{./pasted_image001.png}} = {{./pasted_image002.png}}
+
+**Shortcuts**
+* Dimensions and units should be coherent, i.e ratio between rupees and apples is not possible. Cannot do 10cm/1mm without converting both to the same unit.
+**Unequal ratios**
+* Use inequalities of <, or > 1
+=== Proportion ===
+a, b, c and d are said to be in "proportion" iff
+a/b = c/d
+
+a, d → extremes
+b, c → means
+
+=== Properties of ratios ===
+1. Inversion is okay - Invertendo
+2. Exchanging one value from each side - Alternendo
+3. Componendo - Add one on both sides
+4. Dividendo - Subtract 1 from both sides
+5. Componendo-dividendo: Do componendo and dividendo seperately, then divide the equations.
+
+=== Proportionality ===
+Assume a ∝ b^{r}
+Directy proportional → r = 1
+Inversely proportional → r = -1 

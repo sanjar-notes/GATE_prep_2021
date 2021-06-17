@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:12:50+05:30
+
+====== 7. Puzzles ======
+Created Monday 01 February 2021
+
+* **a_{1}a_{2}....a_{10}**
+What is the number? 
+I have no clue. It is a 10 digit number, let's experiment
+Constructive algorithm(Greedy solution)
+* Smallest possible → 1000000008 (wrong) → 1000000108 (wrong) → 2000000108(wrong) → 2100000108(wong) → 2100010006(correct)
+
+=== Tips ===
+* Try to be fuzzy here
+* Try to guess
+* Guessing will solve it faster here

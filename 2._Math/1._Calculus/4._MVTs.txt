@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T16:27:27+05:30
+
+====== 4. MVTs ======
+Created Monday 18 January 2021
+
+=== 1. Lagrange's Mean Value Theorem ===
+{{./pasted_image.png?height=200}}
+**Statement**
+Let ''f'' be a continuous function on [a, b] and differentiable on (a, b).
+Then there exists some c ∈ (a, b) such that
+{{./pasted_image001.png?height=65}}
+Proof - See diagram.
+* f(c) is said to be the mean of the function between a and b.
+
+=== 2. Rolle's Mean Value Theorem ===
+It is a special case of LMVT, where ''f(b) = f(a)'' and hence there exists some c in c ∈ (a, b) such that ''f'(c)=0''
+
+{{./pasted_image002.png?width=400}}
+* Pretty simple.
+
+=== 3. Cauchy's Mean Value Theorem ===
+This is also an extension of the LMVT
+Suppose there are two functions f and g, both of which are differentiable in the (a, b) and continuous in [a, b]. Then, there exists some point ''c'', such that:
+{{./pasted_image003.png?height=55}}

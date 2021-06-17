@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T16:54:56+05:30
+
+====== 6. Probability Distribution ======
+Created Saturday 30 January 2021
+
+=== Probability Distribution(or Density) Functions ===
+These are functions which take an RV as input and output the probability of its occurrence.
+
+DRV - Bar graphs or pie charts, whose values add to 1.
+	{{./pasted_image.png}}
+CRV - Continuous functions with unity as area(under the curve).
+	{{./pasted_image001.png}}
+Note: 
+* In case of CRVs, P(X=c) = 0: probability is defined only for an interval. i.e P(X=c1 to c2) = _{c1}∫^{c2}P(X)dx is meaningful.
+* RVs are chosen in such a way that they are mutually exclusive and exhaustive.

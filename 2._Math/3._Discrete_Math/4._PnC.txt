@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-26T09:57:46+05:30
+
+====== 4. PnC ======
+Created Tuesday 26 January 2021
+
+=== FPA(Fundamental Principle of Addition) ===
+If there are two tasks that can be performed independently in m and n ways respectively. Then there are m+n possible ways to do one job.
+* This can be generalized
+e.g 4 chocolates and 5 biscuits, we have to eat one - There are 9 ways.
+
+=== FPM(Fundamental Principle of Multiplication) ===
+If there are two tasks that needs to be performed in order, and that they can be done in m and n ways, respectively. Then there are m*n ways to do the jobs.
+* This can be generalized
+e.g 4 burgers and 10 types of drinks, a meal(i.e burger + drink) can be made in 40 ways.
+
+=== Permutations ===
+Permutation - An arrangement.
+* Think of it as taking photos - the camera or the photo is never flipped.
+* This is similar to an ordered list(array).
+**Formula - Number of permutations of r things(taken from a set of r distinct things)**
+* ^{n}P_{r} = (n!)/(n-r)!
+* If everything is taken, then n!
+* When some objects are not distinct, some permutations may be repeated. So we need to divide by ^{a}P_{a'} for each distinct. Simpler cases:
+	* All - {{./pasted_image.png}}
+
+=== Combinations ===
+Combination - A selection, order does not matter
+Selecting r things from n things
+{{./pasted_image001.png}}
+* Similar to a set - order does not matter.
+**Properties of combination**
+* {{./pasted_image002.png}}
+* {{./pasted_image003.png}}
+* Combinations can be split
+	{{./pasted_image004.png}}
+* Cancellability
+	{{./pasted_image005.png}}
+
+**Combination Trivia**
+* Greatest combination term
+	* For even - middle one → ^{n}C_{n/2}
+	* For odd - middle two → {{./pasted_image006.png}}

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T16:09:42+05:30
+
+====== 3. Discrete Math ======
+Created Monday 18 January 2021
+
+Discrete math
+__1. Logic__
+2. __Sets, relation and functions.__
+3. Partial orders and lattices, Monoids and groups.
+4. __Graphs - connectivity, matching, coloring.__
+5. __PnC, recurrence relation(master theorem), generating functions.__

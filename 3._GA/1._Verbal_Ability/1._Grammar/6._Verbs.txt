@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T19:38:10+05:30
+
+====== 6. Verbs ======
+Created Tuesday 02 February 2021
+
+These words specify an action being done.
+1. Transitive(relating to an object) - reading a book, driving a car, speaking in the mic
+2. Intransitive - reading, driving, speaks softly
+* Gerund - the //ing// used to show something as an activity
+* Infinitive - activities that are deemed to happen forever - love, care, try, remember, learn, hope. A 'to' is used before them.
+
+

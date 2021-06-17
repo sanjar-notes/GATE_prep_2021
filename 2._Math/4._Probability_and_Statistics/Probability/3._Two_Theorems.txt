@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T11:24:59+05:30
+
+====== 3. Two Theorems ======
+Created Saturday 30 January 2021
+
+=== Total Probability ===
+This is used for calculating the probability of an event A given a list of mutually exclusive and exhaustive probabilities(B_{i}) covering the whole sample space.
+{{./pasted_image.png}}
+**mAid** - Area is equal to probability in a //drawn to scale// Venn diagram. So the event which is made up of smaller areas is just the common area.
+
+''P(A) = ΣP(A ∩ E''_{''i''}'')''	...common area
+''P(A) = Σ P(A | E''_{''i''}'') * P(E''_{''i''}'')''	...useful notation
+where A = argument event, E_{i} = A constituent event
+* The name is a slight misnomer - it should be probability computed from constituent events.
+
+=== Bayes Theorem - "Plausibility" and change in belief ===
+* Used to calculate probability of a constituent event(cause) given the argument event(result) has occurred.
+* Simple Form(for two events): ''P(B|A) = P(A|B) * P(B)/P(A)''
+* Original - Replace B by B_{i} and expand P(A) using Total probability.
+	P(B_{i}|A) = P(A|B_{i}) * P(B_{i})/P(A)
+	''P(B''_{''i''}''|A) = P(A|B''_{''i''}'')*P(B''_{''i''}'') / (ΣP(A | B''_{''i''}'')*P(B''_{''i''}''))''

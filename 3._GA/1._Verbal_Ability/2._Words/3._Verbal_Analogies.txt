@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T20:03:38+05:30
+
+====== 3. Verbal Analogies ======
+Created Tuesday 02 February 2021
+
+You are given w1: w2. Then only one v1 and v2 are given, find the other.
+
+There are many kinds:
+1. Obvious(used frequently) - bat/ball, salt/pepper, electron/proton
+2. Opposites - black/white, wet/dry
+3. Similar - cold/icy, hide/conceal
+4. Classification - red/color, grapes/fruit
+5. Attributes - grass/green, water/wet, sun/hot, ice-cream/cold
+6. Part and whole - finger/hands, month/year, cat/clowder
+7. Object and function - pen/writing, game/playing, food/eating
+8. Object and location - car/garage, tree/forest
+9. Performer and action - magic trick/magician, actor/act
+10. Verb tenses - eat/ate, drive/drove
+11. Cause and effect - fire/burn, trip/fall, cut/injury
+12. Effort and product(voluntary) - write/letter
+13. Sequences - 1/2, day/night, Monday/Tuesday
+14. Continuum - warm/hot, cold/freezing, tired/exhausted
+To solve these problems:
+1. Think less, search more in day to day experience
+2. Eliminate all instead of thinkin, because there's no correct answer
+3. Try to read them in sentences
+4. Switch words to get reverse relationship
+5. Consider alternate meaning of the same word

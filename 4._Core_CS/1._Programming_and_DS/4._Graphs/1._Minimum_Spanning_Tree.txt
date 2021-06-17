@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-13T03:19:19+05:30
+
+====== 1. Minimum Spanning Tree ======
+Created Saturday 13 February 2021
+
+* Spanning Tree - a tree constructed from a graph which covers all vertices.
+* MST of a graph is a tree containing all vertices of the graph such sum of the edges is the minimum.
+
+=== Properties of an MST ===
+* Many MSTs may exists for a given graph.
+* For a spanning tree: |V| - |E| = 1, because it is a tree.
+* Adding any edge to an spanning tree creates a cycle.
+
+=== Algorithms for finding MST ===
+**Prim's algorithm**
+* T = {V_{0}}, any vertex will do.
+* Select a neigbour of some vertex in T with minimum weight such that it doesn't make a circuit in T. 
+* Add this vertex to T.
+* Repeat the procedure until |T| = |V|-1.
+
+T.C - O(V^{2})
+
+**Kruskal's algorithm**
+* Let sorted edges be S
+* T = {E_{0}}, minimum weight edge. Remove E_{0} from S.
+* Select the minimum edge from S. Remove it from E_{0}. If it doesn't make a cycle with the selected graph, add it to T. Else discard it.
+* Repeat the procedure until |T| = |V|-1.

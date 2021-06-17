@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-26T11:01:20+05:30
+
+====== 6. Recurrence Relations ======
+Created Tuesday 26 January 2021
+
+=== Logistic Map ===
+The most basic form of recurrence relation - i.e definition for the nth term.
+
+* This needs to be solved to give a closed form solution.
+
+=== Solution of Recurrence Relations ===
+1. By inspection, i.e guess and prove.
+2. By Recursive-tree method - draw a tree and work at each level.
+3. Master Theorem
+{{./pasted_image001.png}}
+{{./pasted_image.png}}
+**MAID**
+* Skeleton - a, b, c, k. c doesn't matter.
+* Base is b everywhere
+* Power in answer - max(k, log_{b}(a)) - whichever is larger
+* You get an extra log_{b}(**n**) only in the equality.

@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-19T00:27:51+05:30
+
+====== 3. Finding Derivatives ======
+Created Tuesday 19 January 2021
+
+* First principle is not practical for finding derivatives.
+
+=== Theorem on derivatives ===
+1. Sum/Difference - ''(u ± v)' = u' ± v'''
+2. Product - ''(uv) = u'v + v'u''
+3. Quotient - ''(u/v) = (u'v-v'u)/v''^{''2'' }, MAID numerator derivative first.
+4. Chaining - ''(f(g(x)))' = f'(g(x)) * g'(x)''
+
+=== Common derivatives ===
+* constant → 0
+1. Logs and exponents
+	* x^{n} →  nx^{n-1}
+	* e^{x} → e^{x}
+	* a^{x} → a^{x }log(a)
+	* log(x) → 1/x
+2. Trignonometric
+	* sin(x) → cos(x)
+	* cos(x) → -sin(x)
+	* tan(x) → sec^{2}(x)
+	* cot(x) → -cosec^{2}(x)
+	* cosec(x) → -cosec(x)*cot(x)
+	* sec(x) → sec(x)*tan(x)
+3. Inverse Trig
+	* sin^{-1}(x) → 1/√(1-x^{2})
+	* cos^{-1}(x) → -1/√(1-x^{2})
+	* tan^{-1}(x) → 1/(1+x^{2})
+	* cot^{-1}(x) → -1/(1+x^{2})
+	* sec^{-1}(x) → 1/(x*√(x^{2}-1)) → take positive value.
+	* cosec^{-1}(x) → -1/(x*√(x^{2}-1)) → take negative value.
+=== Methods of differentiation ===
+1. Logarithmic - If a function is a product or quotient, or power of many functions.
+	a. Take log - this will separate the functions.
+	b. Take derivative.
+	c. Simplify. Better than chain rule, sometimes.
+2. Implicit functions - If an expression f(x, y)=0 is given
+	dy/dx = -(δf/δx)/(δf/δy)
+	No need to separate
+3. Parametric differentiation, if x=f(t) and y=g(t), then
+	dy/dx = f'(t)/g'(t)
+4. For determinants
+	{{./equation.png?type=equation}} = {{./equation001.png?type=equation}} + {{./equation002.png?type=equation}} + {{./equation003.png?type=equation}}
+
+

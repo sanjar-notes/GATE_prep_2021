@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-25T06:49:32+05:30
+
+====== 2. Group ======
+Created Monday 25 January 2021
+
+* Group - A semigroup which has 2 additional features:
+	a. presence of an identity
+	b. Invertibility
+* Abelian group - a commutative group.
+* Order of group - cardinality of the group's set. Defined only for finite set.
+
+MAID
+{{./groups.png?width=600}}
+* There are only 5 main operations we're concerned about in algebraic structures:
+	1. Identity
+	2. Invertibility
+	3. Associativity
+	4. Commutativity
+	5. Totality
+
+=== Some important theorems ===
+1. Identity element in a group is unique.
+2. Inverse of every element in a group is unique.
+3. (x^{-1})^{-1} = x
+4. (x*y)^{-1} = y^{-1 }* x^{-1}
+5. It is cancellative.
+6. Follows exponent laws.
+	* x^{m} * x^{n} = x^{m+n}
+	* (x^{m})^{n} = x^{mn}
+
+=== Residue class ===
+When a set is partitioned using the modulo operator(mod n), n sets are said to be formed.
+
+FIXME:__TO BE DONE__

@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-23T04:37:18+05:30
+
+====== 7. Eigenvalues and Eigenvectors ======
+Created Saturday 23 January 2021
+
+This stuff is defined only for square matrices.
+
+=== Revisiting matrix and vector multiplication ===
+When a vector is multiplied(pre) by a matrix, the resulting vector can have two changes:
+1. It is scaled(length changes)
+2. It is rotated
+
+* It is not necessary that both changes occur together always.
+
+=== Eigen Vectors ===
+Think of multiplying a set of vectors by a matrix. The resulting set of vector are likely to rotate and/or scale.
+
+But there may be some vectors which don't get rotated.
+* A vector that doesn't rotate is called **eigen vector**.
+* The scale factor of an eigen vector is called its **eigen value**.
+
+Note:
+* The origin doesn't count as an eigen vector
+* Eigen vectors may not exist at all. In this case, standard rules produce complex eigen vectors and eigen values. These eigen vectors are still rotated.
+* Eigen vectors are associated with the matrix.
+
+=== Properties of Eigen stuff ===
+1. |A| = Π(λ)
+2. tr(A) = Σ(λ)
+3. Eigen values of related matrices:
+	* kA = kλ
+	* A^{k} = λ^{k}, including the inverse. Can be used to calculate adj(A)'s eigen too.
+	* A^{T} = same as A
+4. Maximum number of distinct eigenvalues is n
+5. Eigen(AB) = Eigen(BA), assuming AB and BA are computable
+6. For a triangular matrix, diagnonal elements ⇒ Eigen values
+
+=== Finding Eigen Stuff ===
+**Eigen Values**
+* Solutions of the characteristic eqn, |A-λI| = 0 ⇒ Eigen Values
+* Use tr(A) = Σ(λ) and |A| = Π(λ) for help.
+
+**Eigen Vectors**
+* Subsitute values into (A-λI)v = 0, keeping v as [x1 x2 x3]
+* Compare and find the value of x1, x2 and x3 in terms of a parameter.
+* Repeat for each eigen value.

@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T01:01:22+05:30
+
+====== 5. Polynomials ======
+Created Thursday 04 February 2021
+
+=== Remainder Theorem ===
+f(x) % (x-a) = f(a) for some polynomial f(x)
+Proof: f(x) = q(x)*(x-a) + r, put x=a → f(a) = r
+
+=== Factor theorem(special case of remainder theorem) ===
+If f(a)=0, then (x-a) is a factor of polynomial f(x)
+
+=== For real polynomial eqns ===
+* Imaginary roots always come in conjugate pairs
+* Wavy curve method for solving
+=== For quadratic eqns ===
+* Discriminant decides realness of roots
+* If ''a'' > 0, then curve is smiling(2nd derivative).
+* Extremum: (-b/2a, -D/4a)

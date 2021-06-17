@@ -1,0 +1,74 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-12T19:43:25+05:30
+
+====== 2. Sorting Algorithms ======
+Created Friday 12 February 2021
+
+=== What is sorting ===
+* Sorting is the process of arranging a given array of elements in a certain order.
+* It can reversed as well.
+
+=== Why do sorting ===
+* Sorted data is searchable faster
+* Sorting is a very common subroutine in many algorithms
+
+=== Criteria for rating sort algorithms ===
+1. In-place - does the sort output to the original input space, or does it need a new array for output.
+2. Number of comparisons
+3. Number of swaps
+4. Adaptive - Does sorting take less(asymptotically) time if the array is already sorted?
+5. Stable - does it preserve order of elements when comparison parameters are equal.
+6. Online - does the sort accept a new element during the sorting process.
+
+=== Types of sorts ===
+* Comparison based sorts - elements are compared with each other
+* Index based sorts - no comparison
+
+=== n^{2} sort algorithms ===
+1. Bubble sort
+	* Idea - smallest element is placed to the left one by one. This is done for each step.
+	* In-place - Yes
+	* Number of comparisons - O(n^{2})
+	* Number of swaps - O(n^{2})
+	* Adaptive - Yes
+	* Stable - Yes
+	Summary - O(n^{2}) time and O(1) space in worst case. In case of sorted, it takes Θ(n) time and O(1) space.
+2. Insertion sort
+	* Idea - Select the appropriate space and insert the element.
+	* In-place - Yes
+	* Number of comparisons - O(n^{2})
+	* Number of swaps - O(n)
+	* Adaptive - Yes
+	* Stable - Yes
+	Same as bubble sort.
+3. Selection sort
+	* Idea - select the minimum and swap with the leftmost element in the unsorted part of the array.
+	* In-place - Yes
+	* Number of comparisons - O(n^{2})
+	* Number of swaps - O(n)
+	* Adaptive - Yes
+	* Stable - Yes, possible.
+	This is the worst kind of sorting.
+
+=== Linearithmic sorting algorithms ===
+1. Merge sort
+	* Idea - sort(a, n) = merge(sort(a, n/2), sort(a+n/2, n/2)). It is recursive.
+	* In-place - No, takes O(n) time.
+	* Number of comparison - O(nlogn)
+	* Number of swaps - O(nlogn)
+	* Adaptive - Yes, a simple loop will do.
+	* Stable - No
+2. Heap sort
+	* Idea - build a max-heap in-place. Then remove and insert at the end of the array.
+	* In-place - yes
+	* Number of comparisons - O(nlog(n))
+	* Number of swaps - O(nlog(n))
+	* Adaptive - yes, a simple loop will do.
+	* Stable - yes.
+3. Quick sort
+	* Idea - partition the array into parts about an element(which is at the correct position). Then sort the two parts.
+	* In-place - yes
+	* Number of comparisons - O(nlog(n))
+	* Number of swaps - O(nlog(n))
+	* Adaptive - yes, a simple loop will do.

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-24T04:07:57+05:30
+
+====== 4. Predicates ======
+Created Sunday 24 January 2021
+
+Predicates - Boolean equations.
+
+For universal statements
+x ^ y  = T		∀x, y
+
+and for existential ones
+x v y = T		∀x, y

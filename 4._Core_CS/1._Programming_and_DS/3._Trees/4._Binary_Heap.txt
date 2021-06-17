@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-11T18:22:05+05:30
+
+====== 4. Binary Heap ======
+Created Thursday 11 February 2021
+
+=== Intro ===
+* Binary heap is a data structure where extremum can be accessed in O(1) time.
+* There are two kinds of binary heaps, max-heaps(max can be found fast) and min-heaps(min can be found fast).
+* Jargon: heap means max-heap.
+
+=== Implementation ===
+* Heaps are implemented using array representation of trees.
+* Heap has two invariants which it maintains:
+	a. It is a **complete binary tree** - all levels must be completely filled, except the last level(it must be contiguous though).
+	b. All nodes below the current node are less than it. This is the case for max heap. Opposite for min heap.
+Note: 
+	* As heaps are CBTs, their height is always log(n).
+	* The last element is accessible in constant time, as it is the last element of the array.
+	* index of left child = 2*i+1, index of right child = 2*i+2. Proof is easy.
+	* Parent of node = floor((i-1)/2)
+
+=== Insertion(sifting up) ===
+* Takes log(n) time, O(1) space.
+* Insertion is done via "sifting up".
+* Algorithm:
+	1. Insert the node as the last node(last element of the array.
+	2. Sift it **up**, as much as possible - i.e if the parent is less than the child, swap them. Anchor condition - node becomes the root or we reach a stage where the parent is greater.
+* Time complexity proof(same as height) = θ(log(n)), worst case insertion is the same. Space - constant: parents are computible at each stage.
+
+=== Deletion(of root - sifting down) ===
+* Algorithm:
+	a. Store the root value for returning, this is the extremum.
+	b. Remove the last node(last element of array) and insert it at the root.
+	c. Sift it **down** with a bias to the right child, as much as possible - check if the right child is bigger, if it is, swap with the node. If the left is smaller do the same. Anchor condition - if the node becomes a leaf or if none of the children are greater. i.e ignore comparison if the a child does not exist.
+* Note: We have a right child bias because this ensures that the CBT property holds.
+* Time - θ(log(n)), space - θ(1)
+
+=== Deletion(of given node) ===
+* This is not a part of the heap ADT
+* Algorithm:
+	1. Search for the node to be deleted. This takes O(n) time. Abot if search fails.
+	2. Do //root deletion// for the key's subtree.
+	3. Remove the last node from sibling's 
+
+=== Heapify process ===
+* Creating a heap for a given tree is called heapification.
+* It can be done in-place. Keep heap starting from the head of the array.
+

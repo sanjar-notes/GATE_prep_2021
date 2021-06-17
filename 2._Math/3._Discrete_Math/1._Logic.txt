@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-23T08:58:25+05:30
+
+====== 1. Logic ======
+Created Saturday 23 January 2021

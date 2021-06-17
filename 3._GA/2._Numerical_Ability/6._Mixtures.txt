@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:10:14+05:30
+
+====== 6. Mixtures ======
+Created Monday 01 February 2021
+
+=== Average ===
+* Average = (Σf_{i}*a_{i})/Σf_{i}
+Set f_{i}=1 if no frequencies are given
+Properties of average:
+* If each term is manipulated via any of the 4 basic ops, the mean also undergoes the same manipulation.
+* minimum ≤ Average ≤ maximum
+
+=== Mixtures ===
+Simple mixture - mixing two basic substances
+Compound mixture - mixing two or more simple mixtures
+
+**Resultant concentration**
+When two liquids of concentration c_{x} and c_{y}, with volumes x and y are mixed, the resultant conc is given by:
+	c = total stuff/total solvent
+		= (x*c_{x} + y*c_{y})/(x+y)

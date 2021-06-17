@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-27T04:15:13+05:30
+
+====== 6. Isomorphism in graphs ======
+Created Wednesday 27 January 2021
+
+Two graphs are said to be isomorphic if they are the same when the identity of their vertices are ignored.
+Neccessary and sufficient criteria for two isomorphic graphs:
+* Existence of a function //f// such that f is one-one and onto considering G_{1} as domain and G_{2} as range. i.e if a and b are adjacent in G_{1} then f(a) and f(b) are adjacent in G_{2}
+Note: 
+* The function //f// is called the isomorphism.
+* Onto needs |V_{1}| = |V_{2}| and one-one needs |E_{1}| = |E_{2}| and that they are correlated properly.
+
+=== Proving that two graphs are ''not'' isomporhic ===
+Find the invariants of G_{1}, show that atleast one of them does not hold in G_{2}.
+* Note: Even if all invariants hold, it is not sufficient to conclude that the graphs are isomporhic.
+	* A counter-example to validate this → There's a graph with degree ≥	0 for all nodes. Now we can easily create non-isomorphic examples where the |V|, |E| and this invariant holds → These invariants are not enough.
+* There are no useful sets of invariants currently known that can be used to determine whether simple graphs are isomorphic.
+* Exponential time algorithms exist however. Hint: They permut the graph matrices to see if they match.
+
+Working with isomorphs is a very interesting and signifcant issue that comes up in:
+1. Chemistry - isomers and molecular formulas
+2. IC industry - chips need to be verified as to whether they are the same as the vendor design
+3. Computer Vision
+4. Bioinformatics

@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T14:21:29+05:30
+
+====== 2. Articles ======
+Created Tuesday 02 February 2021
+
+An article is a word(actually an adjective) that combines with a noun to indicate the type of reference being made by the noun.
+
+There are two types:
+1. Indefinite('**A**' or '**an**') - Does not point out to any definite or particular thing.
+Definite('**The**') - Points to some definite or particular person or thing, that is assumed to be known(context).
+
+Use of '**A**':
+* Word that starts with a consonant(no vowel) sound.
+* Word that starts with sound 'yu' or 'h'.
+* Words having a 'wu' sound, however implicit(u in wu may be weak). For example a **on**e-legged dog, where one requires the sound 'wu'.
+
+Use of '**An**':
+mAid - All except A
+* Word starts with a vowel sound
+* Words that have 'h' silent. e.g an heir(prounounced 'eir')
+
+Use of '**The**':
+* Used for pointing to things that the receptor is already aware of.

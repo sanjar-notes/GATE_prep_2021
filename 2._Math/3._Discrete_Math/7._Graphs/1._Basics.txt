@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-26T11:54:19+05:30
+
+====== 1. Basics ======
+Created Tuesday 26 January 2021
+
+
+A graph is a collection of two sets:
+* Vertices(V)
+* Edges(E) - E is a set of pairs, pairs may or may not be ordered.
+
+Note: V and E may be infinite
+
+=== Why study graphs ===
+They are used to model a large variety of phenomena.
+Terminlogies:
+1. Simple graph - An undirected graph with no self-loops and no multiedges.
+2. Multigraph - An undirected graphs with potential multiedges.
+3. Pseudograph - A multigraph with potential self-loops.
+4. Digraph - A directed graph.
+5. Simple directed graph - A simple graph with directed edges.
+6. Mixed graph - A graph having both directed and undirected edges.
+
+=== Degree ===
+This is a property of a node(vertex):
+* Undirected - Sum of all edges connected to a graph. Loop contributes 2.
+* Directed - There are two degrees:
+	* In-degree - Number of edges coming entering the node.
+	* Out-degree - Number of edges leaving the node.
+
+=== Jargon ===
+* Isolated - Degree is zero
+* Pendant - Degree is one
+* Incident with u and v - joining(or connecting) u and v
+* Neigbourhood - Number of nodes directly connected to the node. For directed, number of nodes connecting host to them directly.
+
+=== Handshaking Lemma ===
+* For an undirected graph
+	**Sum of degrees(of all nodes) = 2 |E|**
+Corrollary:
+Number of odd-degree nodes in an undirected graph are even.
+* For a directed graph
+	Sum(indegree) = Sum(outdegree) = |E|
+
+=== Operations on Graphs ===
+1. Union Of Graphs
+	Two graphs G_{1} and G_{2} can be combined to get a graph with vertices V_{1} U V_{2} and edges E_{1} U E_{2}. 
+2. Intersection of graphs - only common stuff is kept, all edges are retained in a conjunction fashion, i.e V_{1} ∩ V_{2} and edges E_{1} ∩ E_{2}. 
+3. Complement - Only edges change in this graph. E^{'} = U - E, where U is the edge set of a complete graph version of the given graph.
+4. Product - similar to cartesian product. The product is not actually a generator of sorts: two points from V_{1} x V_{2}, say u(u_{1}, u_{2}) and v(v_{1}, v_{2}) are adjacent if any of the following holds:
+	* u_{1} = v_{1} and u_{2} and v_{2} are adjacent
+	* u_{2} = v_{2} and u_{1} and v_{1} are adjacent
+5. Composition - The composition of G_{1} and G_{2}, G_{1}[G_{2}] is the graph where two points from V_{1} x V_{2}, say u(u_{1}, u_{2}) and v(v_{1}, v_{2}) are adjacent if any of the following holds:
+	* u_{1} is adjacent to v_{1}
+	* u_{1} = v_{1} and u_{2} is adjacent to v_{2}
+{{./pasted_image.png}}

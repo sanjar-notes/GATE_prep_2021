@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T19:43:39+05:30
+
+====== 7. Adverb ======
+Created Tuesday 02 February 2021
+
+A word used to modify the meaning of a verb, an adjective or another adverb.
+Examples - Bolt runs //quickly//.
+				The tea was //mildy// hot.
+
+Types of adverbs:
+1. Of time - late, early
+2. Of Frequency - sometimes, seldon, everytime
+3. Of Places - here, there, everywhere
+4. Of manner - fiercely, diligently
+5. Quanity - some, too, more
+6. Reason - therefore, hence, ego
+7. Affirmation/Negation - certain, not sure

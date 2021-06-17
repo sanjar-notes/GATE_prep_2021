@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-26T10:53:29+05:30
+
+====== 5. Generating Functions ======
+Created Tuesday 26 January 2021
+
+* It is a single variable expression that yields a value. It may infinite(i.e number of terms).
+* Think of it as a vector of coefficients, i.e G(x) = a_{0}, a_{1} etc
+
+=== Ordinary Generating function ===
+{{./pasted_image.png}}
+
+=== Probability Generating function ===
+If a_{n} is the probability distribution of random variable x, then G(x) is called probability generating function.
+
+=== Exponential Generating function ===
+Same as exponential series but with a_{i} multiplied to each term.
+{{./pasted_image001.png}}
+
+=== Possion Generating function ===
+EG multiplied by e^{-x}
+{{./pasted_image002.png}}

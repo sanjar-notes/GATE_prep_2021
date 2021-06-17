@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-24T05:00:01+05:30
+
+====== 2. Types of Self Relation ======
+Created Sunday 24 January 2021
+
+"Relation on A" doesn't seem to make sense, where's the other one?
+This terminology is actually used for A → A relations.
+
+=== Types of self relations ===
+**Reflexive**
+* Reflexive - If the relation contains **all** tuples (x, x) ∀ x ∈ A. Relexive relations can have other elements too.
+* Anti-reflexive(irreflexive) - If the relation has **no** all (x, x) ∀ x ∈ A.
+* Not reflexive - neither reflexive nor anti-reflexive.
+
+**Symmetric**
+* Symmetric - xRy → yRx, where x ∈ A, y ∈ A 
+* Anti-symmetric - If the relation has **no** tuples (x, y) ∀x ∀y ∈ A.
+* Asymmetric(aka not symmetric) - If a relation is not symmetric, there may be some or no (x, y) ∀x ∀y ∈ A.
+
+**Transitive**
+* Transitive - Presence of (x, y) and (y, z) → Presence of (x, z) ∀x ∀y ∀z ∈ A
+* Transitive is condition based.
+
+**Equivalence Relation**
+R is said to be an 'equivalence relation on A' if it:
+* Reflexive
+* Symmetric
+* Transitive
+
+**Parial Order(symmetry banned Equivalence)**
+R is said to be a partial order on A if:
+* R is reflexive
+* R is anti-symmetric
+* R is transitive
+MAID: A commutative-like relation, there's no need for (y, x) if (x, y) is present.

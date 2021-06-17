@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:12:30+05:30
+
+====== 5. Bar graphs ======
+Created Monday 01 February 2021
+
+* Bar graphs are used for visualizing data mostly. Each period on the X-axis contains n rectangles, for n different entities.
+{{./pasted_image.png}}
+* If multiple quantities compete and are zero-summish, different entities are stacked on top of one another.
+{{./pasted_image001.png?height=400}}

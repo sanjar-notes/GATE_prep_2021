@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:12:04+05:30
+
+====== 1. Cubes and Dices ======
+Created Monday 01 February 2021
+
+=== Cube ===
+Facts about a cube 😆️:
+1. 8 corners
+2. 6 faces
+3. 12 edges
+4. TSA = 6a^{2}
+5. Volume = a^{3}
+* F + V = E + 2 holds
+
+* When dividing a cube into n cubes, caluclate the dimensions of the new cube w.r.t volume, because that is an invariant.
+
+=== Die ===
+Has a number from {1, ... 6} on each face, without repetition.
+Symmetrical die → Sum of opposite faces is constant. It is 7
+Asymmetrical → Sum of opposite faces is not constant

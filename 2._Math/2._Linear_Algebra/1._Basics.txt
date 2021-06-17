@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-22T07:50:09+05:30
+
+====== 1. Basics ======
+Created Friday 22 January 2021
+
+=== What are matrices ===
+* Matrices are a way of representing data.
+* Matrix representation facilitates automation.
+* They can be scaled and can work on huge amounts of data.
+
+=== Jargon ===
+* Order → m x n ⇒ m rows and n columns.
+* a_{ij }→ Element in the ith row and jth column
+* Trace of a matrix - sum of elements of the principle diagonal
+
+=== Equality of matrices ===
+* Order is the same. i.e a1 = a2 and b1 = b2
+* Corresponding elements are equal
+
+=== Operations on matrices ===
+1. Addition/Subtraction of two matrices
+	* Order should be equal
+	* Add all corresponding elements.
+2. Multiplication(by scalar)
+	* Multiply all elements by the scalar
+3. Multiplication of two matrices
+	* Order have to be in the form: a x b and b x c
+	* Resulting matrix will have order a x c
+	* Multiplication - Each row(in A) is multiplied by each column(in B) and the a_{ij} is set as the sum of the products.
+	* Operations required - n^{3} for simple multiplication, but n^{2.7} has been achieved(strassens multiplication)
+	* Meaning: Subsitution of values as into a set of linear equations. Order coherence is important because number of values = number of variables must hold.
+	* A*B = B*A is **not true** in general, even for square matrices.
+	* There are two types of multiplication - pre and post.
+4. Transpose of a matrix - Rows and columns are interchanged.
+	* Applicable for all matrices.
+	* (A^{T})^{T} = A	 ...Double negation
+	* (A+B)^{T} = A^{T}+B^{T	}... Generalization holds. Matrices must be addible.
+	* (AB)^{T} = B^{T}A^{T}	... generalization holds, matrices must be multiplicatible.
+	* (kA)^{T} = k * A^{T}
+5. Complex Conjugation - all elements are replaced with their complex conjugates.
+
+All operations here are associative(change groups) and distributive(combinable). But only addition is commutative.

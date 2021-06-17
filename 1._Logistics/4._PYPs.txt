@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T21:28:13+05:30
+
+====== 4. PYPs ======
+Created Monday 18 January 2021
+
+[[./CSE_core_PYP.pdf]]
+[[./GA_PYP_solved.pdf]]
+--------------------
+[[./cs_2007.pdf|2007]]
+[[./cs_2008.pdf|2008]]
+[[./cs_2009.pdf|2009]]
+[[./cs_2010.pdf|2010]]
+[[./cs_2011.pdf|2011]]
+[[./cs_2012.pdf|2012]]
+[[./cs_2013.pdf|2013]]
+[[./cs_2014.pdf|2014]]
+[[./cs_2015.pdf|2015]]
+[[./cs_2016.pdf|2016]]
+[[./cs_2017.pdf|2017]]
+[[./cs_2018.pdf|2018]]
+[[./cs_2019.pdf|2019]]
+[[./cs_2020.pdf|2020]]

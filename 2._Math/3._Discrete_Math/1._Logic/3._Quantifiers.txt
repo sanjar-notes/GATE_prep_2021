@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-24T04:06:45+05:30
+
+====== 3. Quantifiers ======
+Created Sunday 24 January 2021
+
+There are two quantifiers:
+1. Universal - ∀
+2. Existential - (i.e atleast 1) - ∃

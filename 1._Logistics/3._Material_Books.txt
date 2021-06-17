@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-12T00:50:38+05:30
+
+====== 3. Material Books ======
+Created Tuesday 12 January 2021
+
+[[./GAM_theory.pdf|GAM_Theory]]
+[[./CS_core_Theory.pdf|CS_core_Theory]]
+
+Not required
+10, 104-275, 285-393, 488-509
+
+=== Not there in GAM CS syllabus ===
+* After normal definite - i.e curl div stokes etc
+* DEs
+* Complex numbers
+* Regression
+* Numerical methods
+* Transform theory

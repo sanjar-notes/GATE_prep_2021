@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:13:04+05:30
+
+====== 8. Analytical reasoning ======
+Created Monday 01 February 2021
+
+Analytical reasoning represents judgments made on statements that are based on the virtue of the statement’s own content. Beyond an understanding of the meanings of the words used, no particular experience or knowledge is required for analytical reasoning.
+
+Tips:
+* Solve it quickly
+* Make diagrams if data is confusing
+* Try to eliminate options

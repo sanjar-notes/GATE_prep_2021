@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T05:47:31+05:30
+
+====== 1. Subjecty wise timetable ======
+Created Monday 18 January 2021
+
+23-24 - Math
+7 - GA
+7 - Programming and Data structures
+7 - Algorithms - Graph Traversals
+8 - DLD
+9 - TOC
+10 - OS
+11 - DB, COA, CN
+
+11 - revision + full_length_tests
+12 - Leave for Amravati
+13 - Exam

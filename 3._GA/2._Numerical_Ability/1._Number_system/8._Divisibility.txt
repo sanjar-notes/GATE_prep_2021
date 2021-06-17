@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T01:19:03+05:30
+
+====== 8. Divisibility ======
+Created Thursday 04 February 2021
+
+=== Divisbility tests ===
+* 2 → Unit digit 2, 4, 6, 8 or 0
+* 3 → Σd divisible by 3
+* 4 → Last two digits divisible by 4
+* 5 → Unit digit 5 or 0
+* 6 → Divisible by 2 and 3
+* 8 → Last 3 digits divisible by 8
+* 9 →  Σd divisible by 9
+* 10 → unit digit 0
+
+**Somewhat different tests**
+11 → Sum_{odd_places} - Sum_{even_places} is divisible by 11
+7 → No closed form solution exists:
+{{{code: lang="python3" linenumbers="True"
+num # positive number
+while num > 10:
+	last = num %10
+	num = num - 2*last
+	
+if num==0 or num==7:
+	print('Divisible by 7')
+else:
+	print('Not Divisible by 7')
+}}}
+
+

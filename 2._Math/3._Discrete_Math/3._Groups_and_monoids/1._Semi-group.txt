@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-25T06:49:28+05:30
+
+====== 1. Semi-group ======
+Created Monday 25 January 2021
+
+=== Basics ===
+* **Algebraic system** - A set having some operation(s) which acts on the set's elements.
+* **Binary operation** - A relation S x S → S. Most binary operations are actually partial(i.e subset of S x S). It may not be a function.
+* **Semi-group** - A set with an **associative** binary operation.
+* **Monoid** - Semigroup with an identity element. e.g (R, + ,0) or (R, * , 1). i.e x*e = x
+
+MAID - Semi group is the most basic form of an ADT
+
+=== Invertibility ===
+* Left Inverse - y such that y * x = I
+* Right Inverse - y such that x * y = I
+* Invertible - An element is called invertible if it is both left and right invertible.
+
+=== Cancellability ===
+* Left cancellative - If x*y=x*z → y = z, then the semigroup is left cancellative.
+* Right cancellative - If y*x = z*x → y = z, then the semigroup is right cancellative
+* A semigroup that is both left and right cancellative is called 'cancellative'
+
+=== Some important theorems ===
+1. Identity, if it exists, is unique.
+2. If a semigroup is invertible → x*y is also invertible
+	* In fact x*y = y^{-1} * x^{-1}

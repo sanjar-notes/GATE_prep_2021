@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T17:08:56+05:30
+
+====== 7. Expected Value ======
+Created Saturday 30 January 2021
+
+The **average value** of the RV, over a series of trials.
+* For DRV → ΣX*f(X)
+* For CRV → _{c1}∫^{c2}x*f(X)dX
+
+Intuitively, Expected Value = (average value obtained in a single trial) * n

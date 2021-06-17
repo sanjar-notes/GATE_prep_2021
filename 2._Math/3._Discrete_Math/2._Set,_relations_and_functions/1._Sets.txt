@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-24T04:31:29+05:30
+
+====== 1. Sets ======
+Created Sunday 24 January 2021
+
+Set - A well defined collection of distinct objects is called a set.
+
+=== Set representation ===
+1. Roster(or tabular form) - comma separated values(objects) surrounded by braces({}). e.g {1, 2, 3}
+2. Set-builders form - A rule which can be used to enumerate all objects of the set.
+	e.g { x | x ∈ Ζ and 1< x < 10 } = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+=== Types of Sets ===
+1. Empty set(or null set) - A set having zero elements
+2. Singleton set - A set having just one element
+3. Pair set - A set having two elements
+4. Finite set - A set with finite cardinality
+5. Infinite set - A set with infinite cardinality
+
+=== Terms ===
+0. Elements - Another word for object residing within a set
+1. Cardinality - total number of elements in a set.
+2. Equal sets - two sets A and B are equal if:
+	* Have the same cardinality
+	* Each member of A is also a member of B and vice versa.
+3. Subset - A is said to be a subset of B if each element of A also belongs to B. The converse need not be true. Notation A ⊂ B
+4. Proper subset - A is said to be a proper subset of B if A is a subset of B but not equal to B. In other words, B has elements that are absent from A.
+5. Universal Set - The set of all possible elements for a given topic. This is decided arbitrarily.
+6. Power Set - A set containing all possible subsets of a given set. |P(A)| = 2^{|A|}
+
+=== Operation On Sets ===
+1. Union of sets(A ∪ B) - The set which contains all the elements of A and B
+2. Intersection(A ∩ B) - The set that contains elements that are present in both A and B
+3. Difference(A - B)  - The set having all elements of A that are not in B.
+4. Symmetric Difference(A ⊕ B) - The set having elements that are either in A or in B, but not both.
+5. Complement of a set(A') - The set containing all elements of the universal set that are not in A
+=== Laws and Theorems ===
+1. Idempotent - A ∪ A = A, A ∩ A = A
+2. Identity - A ∪ φ = A, A ∩ U = A
+3. Commutative - All except difference are commutative.
+4. Associative - A ∪ (B ∪ C) = (A ∪ B) ∪ C, A ∩ (B ∩ C) = (A ∩ B) ∩ C
+5. Distribution laws - A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+6. De-morgan's laws
+7. (A ∪ B)′ = A′ ∩ B ′, (A ∩ B)′ = A′ ∪ B ′
+=== Venn Diagrams ===
+They are way to represent sets graphically.
+{{./pasted_image.png}}{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+
+=== Applications of Sets ===
+* |A ∪ B| = |A| + |B| - |A ∩ B|
+* |A'| = |U| - |A|
+* |A - B| = |A| - |A ∩ B|
+* |A ⊕ B| = |A| + |B| - 2*|A ∩ B|
+* |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |B ∩ C| - |C ∩ A| + |A ∩ B ∩ C|

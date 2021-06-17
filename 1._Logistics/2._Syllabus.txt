@@ -1,0 +1,147 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-11T23:55:45+05:30
+
+====== 2. Syllabus ======
+Created Monday 11 January 2021
+
+I don't have much time, so I'll study as fast as possible.
+Work Mode: Learn, compress the least and spit in the exam.
+Don't(s)
+
+https://gatecse.in/gate-cse-2016-syllabus/
+
+=== Things to keep in mind ===
+- No need to go into unnecessary depths.
+- Make abstractions for undertstanding concepts as fast as possible.
+- Using abstraction blocks, error are don't care.
+- Study only what you're comfortable with.
+
+=== Qualities to develop ===
+* Fast solving ability, bring back JEE
+* 80% emotionality.
+* Notes are not important, link references.
+* Take tests online.
+* Solve old questions.
+--------------------
+List of subjects based on weightage(both frequency and marks), difficulty and time taken to learn. Points out of 10.
+What to study first, the one with the least eval function.
+* It should be easy and have more weightage.
+
+=== S1 - Engineering math (25 chunks) ===
+1. __Discrete math__
+__   1. Logic__
+__   2. Sets, relation and functions.__
+__   3. Partial orders and lattices__
+__   4. Monoids and groups.__
+__   5. Graphs - connectivity, matching, coloring.__
+__   6. PnC, recurrence relation(master theorem), generating__ functions.
+2. __Linear algebra__
+
+__   1. Matrices__
+__   2. Determinants__
+__   3. System of linear eqns__
+__   4. Eigenvalues and Eigenvectors__
+   5. LU decomposition
+3. __Calculus__
+
+__   1. Limits__
+__   2. Continuity and differentialbiliy__
+__   3. Maxima and minima__
+__   4. Both MVTs__
+__   5. Integration__
+4. Probability and statistics
+   __1. Random variables__
+__   2. 4 distributions - Uniform, Normal, Binomial and poisson.__
+__   3. Mean, median, mode and variance - Data and probabilistic.__
+__   4. Conditional probability + Total probability__
+__   5. Bayes Theorem__
+
+=== S2 - DLD (10 chunks) ===
+1. Boolean Algebra
+2. Combinational and Sequential circuits
+3. Minimization
+4. Number representation and computer arithmetic(fixed and float).
+
+=== S3 - COA(20 chunks) ===
+1. Memory heirarchy - cache, primary and secondary
+2. I/O interface(interrupt and DMA mode)
+
+=== S4 - Programming and Data Structures(12 chunks) ===
+1. C programming
+2. Recursion
+3. Linear DS - Arrays, Linked List, Stacks, Queues
+4. Non-linear DS
+   1. Trees - including BST
+   2. Graphs - Traversal excluding shortest path and MST
+5. Heap
+
+=== S5 - Algorithms (13 chunks) ===
+1. Searching
+2. Sorting
+3. Time and space complexity of all
+4. All 3 Algorithm design techniques: Divide n Conquer, Greedy, dynamic programming.
+5. MST algorithms - Kruskal and Prim
+6. Shortest path algorithm - Dijkstra, Bellman-Ford, Floyd-Warshall
+
+=== S6 - TOC (8 chunks) ===
+1. Finite automata
+2. Regular Expressions
+3. Context-free grammars and push-down-automata
+4. Regular and contex-free languages, pumping lemma.
+5. Turing machines and undecidability
+
+=== S8 - OS (18 chunks) ===
+1. System calls, processes, threads
+2. Concurrency and synchronization
+3. Deadlock
+4. CPU and I/O handling
+5. Memory management and Virtual memory
+6. File system
+
+=== S9 - Database (24 chunks) ===
+1. ER model
+2. Relational Model: Relation algebra, Tuple Calculus
+3. SQL - Basic
+
+=== S10 - Computer Networks (26 chunks) ===
+* Concept of Layers: OSI model
+* IPv4
+* CIDR notation
+* Application layer protocols
+	1. DNS
+	2. SMTP
+	3. HTTP
+	4. FTP
+	5. Email
+
+=== S11 - GA ===
+* **Verbal Aptitude**
+Basic English grammar: tenses, articles, adjectives, prepositions, conjunctions, verb-noun agreement, and other parts of speech
+Basic vocabulary: words, idioms, and phrases in context Reading and comprehension
+Narrative sequencing
+* **Quantitative Aptitude**
+Data interpretation: data graphs (bar graphs, pie charts, and other graphs representing data), 2- and 3-dimensional plots, maps, and tables
+Numerical computation and estimation: ratios, percentages, powers, exponents and logarithms, permutations and combinations, and series
+Mensuration and geometry
+Elementary statistics and probability
+* **Analytical Aptitude**
+Logic: deduction and induction
+Analogy
+Numerical relations and reasoning
+* **Spatial Aptitude**
+Transformation of shapes: translation, rotation, scaling, mirroring, assembling, and grouping
+Paper folding, cutting, and patterns in 2 and 3 dimensions
+
+--------------------
+
+=== Syllabus Gotchas ===
+* General Aptitude section (Numerical and verbal ability) should be given equal priority as any other subject.
+
+=== Analysis ===
+Total topic chunks - 180 chunks(concentrated sittings)
+
+Things to do:
+* Look at papers and find distribution of marks.
+* Check contextual data by skimming through the question
+* Decide what to study.

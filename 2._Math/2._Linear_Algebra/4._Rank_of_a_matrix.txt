@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-22T22:36:14+05:30
+
+====== 4. Rank of a matrix ======
+Created Friday 22 January 2021
+
+Rank of a matrix - Number of linearly independent columns or rows(Both are equal).
+It is defined for both square and non-square matrices.
+
+=== Echelon form ===
+* Elementary tranformations are applied in order to make all rows zeros(as much as possible).
+* Then they(rows) are sorted - most non zero comes on top.
+* Echelon form is always reachable.
+
+=== How to find rank ===
+* Reduce matrix to echoleon form.
+* Rank = on zero rows
+
+=== Properties of rank ===
+1. Rank of a matrix is unique, because echelon is unique.
+2. Rank of null matrix = 0
+3. Every matrix has a rank
+4. rank(A) ≤ min(m, n)
+5. If A is a non-singular sqaure matrix → rank(A) = n
+6. rank(I_{n}) = n ... follows from 5
+7. If A and B are non-zero column and row matrices, then rank(AB) = 1
+8. rank(A) = rank(A^{T}), because row or column doesn't matter in echelon form.
+9. Rank stays the same upon multiplication by a non-singular matrix.
+10. rank(AB) ≤	min(rank(A), rank(B)) - always smaller/equal to the smaller.
+11. Elementary tranformation don't change the rank.
+

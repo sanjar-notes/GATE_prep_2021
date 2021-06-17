@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-27T03:52:51+05:30
+
+====== 5. Representation of Graphs ======
+Created Wednesday 27 January 2021
+
+To work on graphs, we need a way to represent them. Now V and E don't help much. We need better ways.
+There are three major ways:
+1. Adjacency Matrix - It is a n * n matrix with whole number values for an undirected graph - 0(no edge), 1(one edge) and r(r multiedges). For directed graphs we use negative numbers + whole numbers, negative(incoming) positive for outgoing edges. Because G[i][j] is used to determine whether they are neigbours, the matrix is called adjacency matrix.
+{{./pasted_image004.png}}{{./pasted_image005.png}}
+2. Adjacency List - Each node has a list its neighbours(or outgoing ones in directed graph).
+{{./pasted_image.png}}{{./pasted_image001.png}}
+{{./pasted_image002.png}}{{./pasted_image003.png}}
+3. Incidence Matrices - This is a edge to vertex matrix. A[i][j] is nonzero if the edge j is incident with i. To represent loops, we can have multiple columns(for the edge).
+{{./pasted_image006.png?height=200}}{{./pasted_image007.png?height=200}}
+* Both representations are correct as well as complete.
+ 
+
+=== A.Matrix vs A.List ===
+Comparing the two:
+|        Job       <|  A.Matrix <|          A.List         <|
+|:-----------------:|:----------:|:------------------------:|
+|    Space Taken    | V^2 always | V^2, but less for sparse |
+| isNeighbour(i, j) |    O(1)    |           O(V)           |
+
+* So there's a space vs time tradeoff.
+* A.Matrix is preferred if the graph is dense(potentially).

@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:09:57+05:30
+
+====== 5. Time and Work ======
+Created Monday 01 February 2021
+
+* Work in Work-Time problems is analogous to distance in distance-time problems.
+{{./pasted_image.png}}
+* Rate of doing word = power = speed
+**Get this correct and all problems are solved.**
+Pipe and cistern problems are the similar.
+
+=== Assumptions ===
+All work is done in a linear fashion.
+
+=== Formulae ===
+* A man can do a piece of work in 'a' days → A man can do 1/a work in 1 day
+* If A is 'a' times better than B. Then A will take 1/a time to do the same amount of work that B does in 1 day.
+* If A can finish the work in x days, and B can do so in y days. Then time taken if they work together is: ''xy/(x+y)''. This is because the total work is the same and total speed is the sum.
+* {{./pasted_image001.png}}
+* Opposing work, make speed of one negative. In pipes and cisterns the drain is considered negative.
+* Efficiency of A w.r.t B = v_{a}/v_{b}

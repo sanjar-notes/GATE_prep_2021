@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:12:45+05:30
+
+====== 6. Pie charts ======
+Created Monday 01 February 2021
+
+=== Piechart ===
+A disc where sectors represent quantities that are mutually zero-summish.
+{{./pasted_image.png}}
+
+=== Doughnut piechart ===
+Multiple types of disjoint data are represented in the same chart.
+{{./pasted_image001.png}}
+
+=== Ring Chart/Multilevel Pie Chart ===
+It is used to represent hierachical data. The ones close to the center are the parents of the outer ones, in that sector. Area ∝ data
+

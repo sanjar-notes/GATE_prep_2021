@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-08T00:48:56+05:30
+
+====== 3. Struct ======
+Created Monday 08 February 2021
+
+* Struct can be used to create complex types.
+* Structs can not be intialized to some value.
+
+Nesting in struct:
+* They can be nested inside one another. Nested structs don't exist on their own.
+* They can be be instantiated inside another struct.

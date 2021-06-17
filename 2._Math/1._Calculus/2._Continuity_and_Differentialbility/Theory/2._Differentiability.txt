@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T23:48:49+05:30
+
+====== 2. Differentiability ======
+Created Monday 18 January 2021
+
+=== Derivative ===
+* The derivatives refers to the rate of change of a function with its independent variable(s).
+* Geometrically it is the slope of the curve at a given point.
+* Formally, derivatives are defined as a limit of the ratio of change of output and input.
+{{./pasted_image.png?height=65}}
+
+=== Differentiability ===
+* A function is said to be 'differentiable' at a point if the derivative exists at that point.
+* A function is said to be 'differentiable'(without referring to a point), if the derivative exists for all points in its domain.
+* Intuitively, a function is said to be differentiable if it can be drawn in a single stroke and without sharp vertices.
+Note: Derivability and differentiability are the same.
+
+=== Continuity vs differentiability ===
+* Differentiability requires continuity.
+* A function that is continuous may not be differentiable. e.g a continuous function with sharp point(s). Worst case example - Weierstrass function(continuous everywhere but differentiable nowhere).
+In short ''differentiability → continuity''.
+
+=== Theorems on differentiability ===
+* If ''f'' and ''g'' are differentiable at ''a'', then ''f±g'', ''f*g'', ''f/g(g'(a)≠0)'' are also differentiable at ''a''.
+* If one or both are differentiable, then the function may still be differentiable.

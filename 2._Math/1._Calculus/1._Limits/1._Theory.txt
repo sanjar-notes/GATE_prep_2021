@@ -1,0 +1,97 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T16:26:45+05:30
+
+====== 1. Theory ======
+Created Monday 18 January 2021
+
+=== Definition ===
+For a value ''ε'' > 0, ''δ'' > 0, function ''f(x)''.
+''L'' is said to be the Limit of ''f'' at ''a'', if for every positive ''ε'':
+''f(a)''-''ε'' < ''L'' < ''f(a)''+''ε'' holds for each ''x'' in the range ''a''-''δ'' to ''a''+''δ'', for some number ''δ''.
+In other words
+{{./equation001.png?type=equation}}
+{{./pasted_image.png}}
+Note: ''f(a)'' may be absent. But Limits don't talk about 'value at ''a'''
+
+=== Important ===
+* For most functions which don't fishy stuff at ''a'', the Limit happens to be 'value at ''a'''.
+* Limits can result in +∞ and -∞ and of course zero. This is perfectly OK.
+* Limits don’t always exist and so don’t get into the habit of assuming that they will.
+
+=== Criteria for a Limit to exist ===
+* LHL = RHL = finite value.
+Note: If limit is ∞ or -∞, then this just means that the limit does not exist.
+--------------------
+
+=== Basic Theorems ===
+1. Addition, Subtraction, Multiplication and Division of Limits is OK.
+2. ''lim''_{''x → a ''}''k * f(x) = k * lim''_{''x → a ''}''f(x)''
+3. ''lim''_{''x → a ''}''f(g(x)) = f(lim''_{''x → a ''}''g(x))'' provided f is continuos at x.
+
+=== Indeterminate forms ===
+Indeterminate forms are templates templates that occur **approximately**(i.e when limits are taken). 
+They are not actually indeterminate.
+There are 7 indeterminate forms:
+1. **''0/0''**
+2. **''∞/∞''**
+3. **''0''**'' * ∞''
+4. **''∞ - ∞''**
+5. **''0''^{''0''}**
+6. ''∞''**^{''0''}**
+7. **''1''**^{''∞''}
+
+=== Standard Limits ===
+1. ''lim''_{''x → 0''}'' sin(x)/x = 1;'' Same for tan(x), sin^{-1}(x) and tan^{-1}(x)
+2. ''lim''_{''x → 0''}'' (1+f(x))''^{''g(x)''}'' = exp(lim''_{''x → 0''}'' f(x)*g(x))'', provided ''lim''_{''x → a''}'' f(x) = 0'' and ''lim''_{''x → a''}'' g(x) = ∞''
+3. ''lim''_{''x → 0 ''}''(a''^{''x''}'' - 1)/x = log(a)''
+4. ''lim''_{''x → 0 ''}''(x''^{''n''}'' - a''^{''n''}'')/(x - a) = na''^{''n-1''}
+
+
+=== Basic Ops ===
+* ''lim''_{''x → c''}'' f(x) ± g(x) = lim''_{''x → c''}'' f(x) ± lim''_{''x → c''}'' g(x);'' given the individual limits exist(and are finite)
+* ''lim''_{''x → c''}'' f(x) * g(x) = lim''_{''x → c''}'' f(x) * lim''_{''x → c''}'' g(x);'' given the individual limits exist(and are finite)
+* ''lim''_{''x → c''}'' f(x) / g(x) = lim''_{''x → c''}'' f(x) / lim''_{''x → c''}'' g(x);'' given the individual limits exist(and denominator is not zero - can become inexistenent or ''0/0'' indeterminacy).
+Proof: A simple geometric proof can be given.
+
+=== Sandwich Theorem ===
+If ''f(x) ≤ g(x) ≤ h(x)'' ∀ x and ''lim''_{''x → a''}'' f(x) = lim''_{''x → a''}'' h(x) = L'' then ''lim''_{''x → a''}'' g(x) = L''
+
+=== L'opital rule ===
+This is used for solving indeterminate limits that are in fractional form.
+If the limit is indeterminate:
+* ''lim''_{''x → a'' }''f(x)/g(x)'' = ''lim''_{''x → a''}'' f'(x)/g'(x)'' =  ''lim''_{''x → a''}'' f''(x)/g''(x)'' ... until indeterminacy is resolved.
+* Both f(x) and g(x) must be differentiable at a.
+* It is not always applicable.
+
+=== Solving techniques ===
+1. Factorization
+2. Rationalization(once or continued)
+3. Trignonometric transformations
+4. Expansions (especially where L'optial fails)
+
+=== Expansions - everything is a complex number by default. ===
+0. Binomial expansion(exponent is rational)
+{{./pasted_image008.png?height=65}}
+1. Exponentiation
+	{{./pasted_image001.png?height=65}}
+2. Logarithms(in terms of 1+)
+	{{./pasted_image002.png?height=65}}
+3. Trignonometric functions(domain squeezed)
+	{{./pasted_image003.png?height=65}}
+	{{./pasted_image004.png?height=65}}
+	{{./pasted_image005.png?height=65}}
+4. Inverse trigonometric functions
+	{{./pasted_image009.png?height=130}}
+	{{./pasted_image010.png?height=65}}
+5. Hyperbolic(Just trig with no minuses)
+	{{./pasted_image006.png?height=65}}
+	{{./pasted_image007.png?height=65}}
+=== Limit for fractions ===
+numerator increases faster : ∞
+denominator increases faster: 0
+
+=== Tips ===
+* Try to bring the problem to standard form
+* Max thinking  - Expansions
+* Don't be afraid of modularizability.

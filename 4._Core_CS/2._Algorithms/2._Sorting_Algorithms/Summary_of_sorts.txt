@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-13T01:59:45+05:30
+
+====== Summary of sorts ======
+Created Saturday 13 February 2021
+
+=== Time and space ===
+{{./pasted_image.png}}
+
+=== In-place and stability ===
+{{./pasted_image001.png}}

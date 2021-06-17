@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-11T18:18:01+05:30
+
+====== 3. AVL trees ======
+Created Thursday 11 February 2021
+
+=== AVL Tree ===
+* It is a self balancing tree.
+* Height of an AVL tree is θ(log(n)) always.
+* There is only one constraint, |h_{left subtree } - h_{right subtree}| ≤	1
+* Insertion and deletions are done as per normal BST and balancing is done.
+* If it is not met, we do something 'balancing'.
+
+=== Balancing an unbalanced tree ===
+* Pivot finding: The node with an unacceptable balance factor which is nearest to the insertion.
+* Balancing is done using no more than 3 nodes.
+* There are 4 types of imbalanced tree:
+	1. Left Left imbalance
+	2. Left Right imbalance
+	3. Right Left imbalance(mirror of 2)
+	4. Right Right imbalance(mirror of 1)
+* Important facts about balancing:
+	a. One balancing(about the lowermost pivot, nearest to the insertion/deletion site) is enough.
+	b. Balancing requires changing the position of at-most 3 nodes.
+	c. |Height before balancing - height after balancing| ≤1

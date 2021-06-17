@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T20:13:40+05:30
+
+====== 4. Homophones ======
+Created Tuesday 02 February 2021
+
+These are words that sound similar but have distinct meanings.
+{{./pasted_image.png}}
+* The goal is to see weather the candidate pays attention to details.

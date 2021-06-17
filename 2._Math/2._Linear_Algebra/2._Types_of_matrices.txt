@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-22T08:04:13+05:30
+
+====== 2. Types of matrices ======
+Created Friday 22 January 2021
+
+=== Basic Types ===
+* Row matrix - has only one row
+* Column matrix - has only one column
+* Square matrix - number of rows = number of columns.
+* Diagonal matrix - A **square** matrix where all elements except the **principle diagonal** are zero. i.e a_{ij} = 0 if i≠j ∀ valid i and j
+* Identity matrix, a **square** diagonal matrix where all elements are 1.
+* Scalar Matrix - A matrix of the form λI, where I is the identity matrix.
+* Null matrix - all elements are zero.
+* Upper triangular matrix - all elements below the diagonal are zero. Similar for lower traingular. Upper - non-upper is zero.
+
+=== Special types ===
+1. Nilpotent - a matrix A, such that A^{n} = 0 for some positive integer n. n is called the index of A in this case.
+2. Idempotent(Square) → A^{2} = A
+3. Involutory → A^{2} = I
+4. Orthogonal → A matrix is called orthogonal if A * A^{T} = I
+5. Symmetrical → A = A^{T}
+6. Skew-symmetrical → A = -A^{T}. All diagonal elements are zero.
+7. Hermitian → A = A^{c}. All diagonal elements are real.
+8. Skew Hermitian → A = - A^{c}. All diagonal elements are purely imaginary.
+
+Note: Nilpotent, symmetrical and skew-symmetrical have to be square matrices.

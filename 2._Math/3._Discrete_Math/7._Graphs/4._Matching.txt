@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-26T12:12:03+05:30
+
+====== 4. Matching ======
+Created Tuesday 26 January 2021
+
+Matching - A subgraph of graph G such that no two edges share a node. 
+* Simple - committed couples in a population
+
+* Maximal matcing - A matching that is not the subset of any other matching. No more edges can be added. In other words, each intersection has atleast one match edge(i.e taking part in the matching).
+* Maximum matching - A matching which has the highest number of edges. It may not be unique. Note: Maximum → Maximal
+
+
+Hall's Marriage Problem(Necessary and Sufficient conditions for matching):
+A bipartite graph G(V, E) with bipartitions V_{1} and V_{2} has a complete matching if and only if |Neighbour(A)| ≥ |A| ∀	subsets A of V_{1}

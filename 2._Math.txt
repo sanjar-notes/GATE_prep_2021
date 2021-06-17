@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T16:08:37+05:30
+
+====== 2. Math ======
+Created Monday 18 January 2021
+
+Syllabus
+
+=== S1 - Engineering math (25 chunks) ===
+1. __Discrete math - 23__
+
+__   1. Logic__
+__   2. Sets, relation and functions.__
+   3. Partial orders and lattices.
+   4. Monoids and groups.
+   __5. Graphs - connectivity, matching, coloring.__
+   __6. PnC, recurrence relation(master theorem), generating functions.__
+2. Linear algebra - 23
+   __1. Matrices__
+__   2. Determinants__
+__   3. System of linear eqns__
+__   4. Eigenvalues and Eigenvectors__
+   5. LU decomposition
+3. Calculus - 23
+   1. __Limits__
+__   2. Continuity and differentialbiliy__
+__   3. Maxima and minima__
+__   4. Both MVTs__
+   __5. Integration__
+4. Probability and statistics
+   1. __Random variables__
+__   2. 4 distributions - Uniform, Normal, Binomial and poisson.__
+__   3. Mean, median, mode and variance - Data and probabilistic.__
+__   4. Conditional probability + Total probability__
+__   5. Bayes Theorem__

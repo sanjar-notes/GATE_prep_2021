@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T17:00:15+05:30
+
+====== 8. Binomial(or Bernoulli) Distribution ======
+Created Saturday 30 January 2021
+
+**Situation** - We have a random experiment where events are independent and binary in nature, labelled success or failure.
+**Note** - The experiment is discrete and finite(number of trials is fixed).
+**mAid** - Think of it as an bar graph
+{{./pasted_image.png}}
+
+=== Equations ===
+* PDF → P(X=success) = ^{n}C_{r }p^{r }(1-p)^{n-r}
+* PDF → P(X=failure) = ^{n}C_{r }(1-p)^{r }(p)^{n-r}
+* Mean value(X=1) = np
+* Variance = npq
+

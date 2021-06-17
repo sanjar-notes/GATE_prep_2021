@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T15:59:01+05:30
+
+====== 4. Problem Solving Techniques ======
+Created Saturday 30 January 2021
+
+1. Try to make a tree of possibilities. For more likely outcomes, create multiple branches. P = ''# of favorable leaves''/''# of total leaves''

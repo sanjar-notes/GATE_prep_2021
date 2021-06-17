@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-11T18:17:09+05:30
+
+====== 2. BST ======
+Created Thursday 11 February 2021
+
+* BSTs are primarily used where search is an abundant operation, time complexity of search is O(h) where h is the height of tree.
+* This is a binary tree where each node is the larger than all elements in the left sub-tree but smaller than each node in the right sub-tree.
+* The main use of this is to make search efficient.
+* It works best if the tree is balanced.
+
+**Insertion in BST**
+* New element is always added as a leaf.
+* Just try to search for the value until you a node which does not have a branch to go on, just become that branch.
+
+**Deletion in BST**
+* Replace the value to be deleted either by maximum in left sub-tree or minimum of the right sub-tree, both are correct. These values are very easy to find as they are always leaves. If a node has only one child, select the correct extrema according to child direction.
+

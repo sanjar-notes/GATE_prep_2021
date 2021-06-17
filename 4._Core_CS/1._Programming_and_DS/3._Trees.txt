@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-09T04:54:37+05:30
+
+====== 3. Trees ======
+Created Tuesday 09 February 2021
+
+* Graph with no cycles is called a tree.

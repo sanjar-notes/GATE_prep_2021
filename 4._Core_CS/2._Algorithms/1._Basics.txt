@@ -1,0 +1,73 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-12T18:17:53+05:30
+
+====== 1. Basics ======
+Created Friday 12 February 2021
+
+=== Algorithm ===
+A finite set of instructions to accomplish a task.
+A algorithm mus satisy the following criteria:
+* Inputs - Zero or more, variable number of inputs are also allowed
+* Output - Atleast one quantity is provided.
+* Definitness - Each instruction must be precise and clear
+* Finiteness - The algorithm should terminate after a finite number of steps
+* Effectiveness - Every step must be very basic.
+
+=== Analyzing Algorithms ===
+There are two kinds of algorithms:
+1. Priori analysis - This analysis is done before the execution, the main principle behind this is the frequency count of each basic instruction. It is independent of the hardware and software. This is purely theoretical.
+2. Posteriori analysis - The analysis done after execution. It takes the hardware and software stack of the machine into account.
+Note: We'll be dealing with priori analysis here.
+
+=== Time complexity ===
+**The time taken by an algorithm to run.**
+* This is actually a misnomer because we are quantifying time taken, and not complexity of the algorithm.
+* Time = Σtime of each operation. 
+* Conditions must be handled properly. We are usually interested in knowing the worst case time complexity.
+
+=== Space complexity ===
+**The space taken by an algorithm during its run.**
+* This is also a misnomer, like time complexity.
+* Space = max(space1, space2...), because space is deallocated and allocated during execution.
+=== Asymptotic Jargon ===
+* Big notation is used for tight bounds, small notation is used for bounds that may not be tight.
+
+=== Big notation ===
+* These are about tight bounds.
+* The bounds are purely mathematical, they don't specify best case/worst case.
+* There are 3 kinds of Big notations:
+	1. Big-O → ''O(f(n))'' **upper bound**
+		g(n) = O(f(n)) means that there exists a function f such that c*f(n) ≥ g(n) ∀ n ≥ n_{0} for some c > 0
+	2. Big-Omega → ''Ω(f(n))'' **lower bound**
+	g(n) = O(f(n)) means that there exists a function f such that 	c*f(n) ≤ g(n) ∀ n ≥ n_{0} for some c > 0
+	3. Big-Theta → ''Θ(f(n))''
+		g(n) = O(f(n)) means that there exists a function f such that c_{1}*f(n) ≤ g(n) ≤ c_{2}*f(n) ∀ n > n_{0} for some c_{1} > 0 and c_{2} > 0
+* Lower order terms and multiplicative constants are ignored in Big-Oh notation. Note: n^{log3} and n^{log2} are not the same.
+* Big-Theta is the best notation among the three. The other two are important anyway.
+
+=== Little notation(not tight) ===
+* These notation are not guaranteed to be tight.
+* As Θ is already precise, it has no non-tight little analgoue.
+* The two little notations are:
+	1. Little O - ''o(f(n))''
+		g(n) = O(f(n)) means that there exists a function f such that c*f(n) > g(n) ∀ n ≥ n_{0} for some c > 0. Note the strict inequality.
+	2. Little Omega - ''ω(f(n))''
+		g(n) = ω(f(n)) means that there exists a function f such that c*f(n) < g(n) ∀	n ≥ n_{0} for some c > 0.
+* Source for [[https://www.tutorialandexample.com/asymptotic-notation/#h-o-little-oh-asymptotic-notation|little notation]]
+
+=== General code to time/space rules ===
+* Loops → time = number of iterations * operations in loops
+* Nested loops → time = l_{1}*l_{2}... where l_{i} represents iterations of each loop. Analyze from inside out.
+* Consecutive statements - add time for all. Space is not always added.
+* Conditionals - Consider which ever part is larger. If this is too complex, you can either talk about best or worst, or do amortized analysis.
+=== Simplyfing rules of asymptotic notations ===
+* These are simple rules, which can be proved in a single line.
+1. Transitivity: If f(n) = Θ(g(n)) and g(n) = Θ(h(n)) → f(n) = Θ(n). Valid for O and Ω as well.
+2. Reflexivity: f(n) = Θ(f(n)), valid for O and Ω too.
+3. Symmetry: f(n) = Θ(g(n)) ↔ g(n) = Θ(h(n)). Valid only for Θ
+4. Transpose symmetry: If f(n) = O(g(n)) → g(n) = Ω(f(n))
+5. Scalar multiplicatives don't matter: If f(n) = Θ(k*g(n)) → f(n) = Θ(g(n)). Valid for O and Ω too.
+6. Addition: If f_{1}(n) = O(g_{1}(n)) and f_{2}(n) = O(g_{2}(n)) then (f_{1}+f_{2})(n) = O(max(g_{1}(n), g_{2}(n)))
+7. Multiplication: If f_{1}(n) = O(g_{1}(n)) and f_{2}(n) = O(g_{2}(n)), then f_{1}(n) * f_{2}(n) = O(g_{1}(n)*g_{2}(n))
+=== Mathematical formulae ===

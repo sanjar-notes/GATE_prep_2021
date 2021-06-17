@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T07:57:43+05:30
+
+====== 1. Basics - Definition of Probability ======
+Created Saturday 30 January 2021
+
+=== Jargon ===
+* Sample space - The set of all possible outcomes.
+* Probability - a measure of likelihood for an event
+
+=== Probability ===
+There are three definitions:
+1. For discrete stuff - (number of chosen events)/(Number of all possible events)
+2. For continuous stuff - (magnitude of chosen event)/(magnitude of sample space)
+
+=== Theories of Probability ===
+There are 3 theories:
+1. **A-priori** - Used for equally likely events which are finite. This is purely theoretical.
+2. **Empirical(or statistical)** - Useful even if outcomes are not equally likely but finite. Experimental.
+3. **Axiomatic** - Used for both not equally likely and for infinite. This is the one given by Kolmogorov.
+
+=== Properties of Probability(Axiomatic Theory of Probability) ===
+1. **Non-negativeness** - The probability of an event is a non-negative real number
+2. **Unitarity** - ''ΣP(A''_{''i''}'') = 1''; sum of probabilities of all possible outcomes is 1
+3. **Additivity** - P(∪A_{i}) = ΣP(A_{i}), where all A_{i} are disjoint sets.
+
+Note: Negative, infinite and uncountable events are allowed for quasiprobabilistic distributions. **We'll not be dealing with them here.**

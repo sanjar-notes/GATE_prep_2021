@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T17:52:00+05:30
+
+====== 4. Adjective ======
+Created Tuesday 02 February 2021
+
+A word that describes quality or quantity or nature of a noun is called an adjective.
+
+Types of adjective:
+1. Quality - large, small, good
+2. Quantity - many, some, little, more
+3. Number - 1, 2, 3, 987
+4. Demonstrative - This, that, these, those
+5. Interrogative - what, which, whose etc

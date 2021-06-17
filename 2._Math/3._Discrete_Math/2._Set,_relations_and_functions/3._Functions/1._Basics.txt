@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-24T05:14:54+05:30
+
+====== 1. Basics ======
+Created Sunday 24 January 2021
+
+We'll be speaking of binary functions here. But they can be n-ary too.
+
+**Function**
+A relation R from A to be is said to be a function if:
+1. For each (x, y) ∈ f →  x ∈ A and y ∈ B 	...Seperation
+2. For each (x, y1) ∈ f and (x, y2) ∈ f, y1 = y2. i.e for each 'pre-image' in A, there should be a only one image in B.
+
+* Just like a relation, a function is also a subset of the cartesian product.
+* A just like a relation, it is a set of ordered tuples.
+
+MAID - Functions are just disciplined mappings.
+
+**Notation of function**
+f:A→B
+This [[https://math.stackexchange.com/a/3947561/741802|notation]] describes three things:
+1. ''f'' - name of the function
+2. ''A'' - Domain of the function
+3. ''B'' - Codomain of the function. This is not always equal to range.
+
+=== Jargon ===
+* pre-image - aka input
+* image - aka output
+* Domain - Set of values which appear in the first part of the tuple. These are basically 'allowed' input values. Generally, this is the whole set A itself. **Fixed**.
+* Range - The set of output values. **Fixed**.
+* Codomain - Superset of the range. It is technically arbitrary - but is mostly the well known number sets Z, N, R, or C.

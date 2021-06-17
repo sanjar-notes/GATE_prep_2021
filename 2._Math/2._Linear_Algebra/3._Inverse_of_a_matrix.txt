@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-22T08:08:56+05:30
+
+====== 3. Inverse of a matrix ======
+Created Friday 22 January 2021
+
+=== Adjoint of a square matrix ===
+The matrix formed by replacing all elements with their cofactors.
+
+* |adj(A)| = |A|^{n-1}
+* adj(adj(A)) = |A|^{n-2}A
+* |adj(adj(A))| = |A|^{(n-1)2}
+
+=== Inverse of a matrix ===
+Necessary and sufficient condition: |A|≠0
+The inverse matrix is denoted by A^{-1} and it has the following property.
+* A * A^{-1} = A^{-1} * A = I
+* A^{-1} = adj(A)/|A| - fast way to calculate
+
+=== Properties of inverse ===
+* Inverse, if it exists is unique.
+* (AB)^{-1} = B^{-1}A^{-1} ...generalizable
+* (A^{T})^{-1} = (A^{-1})^{T}
+* adj(AB) = adj(B) * adj(A)
+* |A^{-1}| = 1/|A|
+* If AB = AC or if BA = CA ⇒ B = C provided A is invertible.

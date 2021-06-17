@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-31T08:08:25+05:30
+
+====== 1. Basics ======
+Created Sunday 31 January 2021
+
+=== Central Tendency ===
+We try to assign a representative value for the whole dataset.
+Various measures of central tendency exists, viz:
+1. Mean - 3 kinds are there
+2. Median - Middle one in sorted order
+3. Mode - highest frequency
+
+=== Mean ===
+There are three kinds of means:
+1. Arithmetic Mean = Σx/N
+2. Geometric Mean = (Πx)^{1/N}
+3. Harmonic Mean = ((Σ1/x)/N)^{-1} = reciprocal of AM of reciprocals
+
+Note: Relation between mean/median/mode: AM ≥ GM ≥ HM. Equality holds iff all terms are equal.
+
+=== Jargon ===
+Range = Max-Min = a distance
+Mid Range = (Max+Min)/2 = a value
+
+=== Measures Of Dispersion ===
+We try to measure the deviation data points w.r.t the mean or otherwise.
+There are 3 basic ways:
+1. Variance(σ^{2}), dimension = data^{2}
+2. Other moments
+
+=== Relation of mean-median-mode for a moderately skewed distribution ===
+{{./pasted_image.png?height=200}}
+* 3* Median = 2 * Mean + Mode
+* All 3 are equal for a symmetrical distribution

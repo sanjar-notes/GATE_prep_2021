@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T00:53:28+05:30
+
+====== 4. Algebraic Identities ======
+Created Thursday 04 February 2021
+
+=== Algebraic Identities ===
+**Basic**
+{{./pasted_image007.png}}
+**Binomial theorem**
+''(a+b)''^{''n''}'' = Σ''^{''n''}''C''_{''r''}'' a''^{''n-r''}'' b''^{''r''}
+
+Note: In generalized form(for any complex number): ^{n}C_{r} is expressed in the lowest terms before values are substituted, like 1, n, n(n-1)/2!, n(n-1)(n-2)/3! and so on.

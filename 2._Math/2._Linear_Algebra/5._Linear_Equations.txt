@@ -1,0 +1,63 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-22T22:56:04+05:30
+
+====== 5. Linear Equations ======
+Created Friday 22 January 2021
+
+=== Jargon ===
+* Inconsistent - has no solution
+* Consistent - has atleast one solution
+* Indeterminate - has more than one solution.
+* General form ⇒ ax+by+cz = d
+* Homogeneous system - All RHS(d) terms are 0.
+
+=== Representing linear equations ===
+AX= B is the general form.
+A = matrix of coefficients
+X = vector(column matrix) of variables
+B = RHS terms
+
+=== Ways to solve Linear eqns ===
+1. Substitution
+	* Isolate a variable in terms of others in the first eqns.
+	* Substitute the variable in all eqns.
+	* We have reduced a variable by using an eqns. 
+	* Repeat the process until there's a single variable left.
+	* Compute the other variables
+2. Gaussian Elimination
+	* Reduce the augmented matrix to reduced echelon form. i.e each row has a 1 and each column having a 1 has all other entries zero.
+	* The solution is obvious now.
+3. Cramer's rule - generalizable to any dimension
+	* x = Δ_{1}/Δ
+	* y = Δ_{2}/Δ
+	* z = Δ_{3}/Δ
+
+=== Linear Combination ===
+A linear combination of a vector is the sum of the scaled vectors, where not all scales are zero.
+In other words,
+LC(a, b, c, d) = k1*a + k2*b + k3*c  + k4*d, such that not all k1, k2, k3 and k4 are zero.
+
+=== Independent and Dependednt Vectors ===
+This is defined for a set of vectors.
+* Dependent - If there exists atleast one vector that can be expressed as a linear combination of others. 
+* Independent - If no vector can be written as a LC of the others, i.e all are different.
+
+**How to check dependence**
+* If Δ = 0 → dependent
+* If Δ ≠ 0 → independent
+
+=== Nature of solutions ===
+There are only 3 possibilities - No solution, one solution or ∞ number of solutions.
+1. Homogeneous eqns - Origin is always a solution.
+	If Δ = 0 → ∞ many solutions
+	else → One solution(i.e origin)
+2. Non-homgeneous eqns
+	If Δ ≠ 0 → One solution(unique)
+	else(as RHS≠0, we have to use ranks now)
+		* If rank = n → No solution ...different RHS for same LHS
+		* If rank ≠ n → Infinitely many solutions (i.e data insufficiency - eqns are less than unknowns)
+**MAID - Covers everything**
+* Use cramers's rule when Δ ≠ 0
+* For homogeneous, know that origin is always the solution. So if Δ = 0, then there are ∞ solutions
+* For non homogeneous and Δ = 0, keep in mind that we have to deal with RHS too. So we need to use rank(i.e echelon form).

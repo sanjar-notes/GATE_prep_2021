@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T01:06:33+05:30
+
+====== 6. In-equations ======
+Created Thursday 04 February 2021
+
+There are 5:
+* ≠
+* >
+* ≥
+* <
+* ≤
+=== Properties of in-equations ===
+1. Adding, subtracting same quantities on both side has no effect.
+2. Multiplication/Division by positive quantities is has no effect.
+3. Multiplication/Division by negative number changes sign.
+4. Two inequalities can be added/subtracted, provided order of inequality is respected.
+=== Fraction with addition and sbtraction ===
+* Adding x: {{./pasted_image.png}}
+* Subtracting x:{{./pasted_image001.png}}
+
+=== Simple facts ===
+{{./pasted_image002.png}}

@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T16:02:07+05:30
+
+====== 5. Random Variables ======
+Created Saturday 30 January 2021
+
+* Random variable is a tool used to map events to real numbers.
+{{./pasted_image.png?height=300}}
+* They are chosen as per convenience.
+{{./pasted_image002.png}} {{./pasted_image001.png?height=299}}
+
+=== Criteria for choosing RVs ===
+* Mathematically, RVs should be functions with real numbers as range.
+* Sample space is essentially the range of the RV.
+* The chosen function must satisfy the 3 axioms of probability.
+
+=== Why use RVs ===
+* Quantifies the outcomes
+* Equations are short and unambiguous. We don't need to write long English phrases, we can say P(X = 1) instead of P(tail occurs).
+
+=== Types of RVs ===
+There are two kinds of RVs:
+1. **Discrete** RVs - The codomain is a set of discrete values, i.e integral or any other discrete object(even emojis can be used). e.g number of children per family, number of cars a person owns.
+2. **Continuous** RVs - The codomain is a set of uncountably infinite values. Example - height of a person, amount of water a person drinks in a day.
+
+Note: To decide whether to use continuous or discrete RVs, check if the output can be measured accurately indefinitely(at-least in theory): if this is true use continuous.

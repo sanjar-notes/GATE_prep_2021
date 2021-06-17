@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-07T23:52:08+05:30
+
+====== 1. Basics ======
+Created Sunday 07 February 2021
+
+Identifier - of anylength. But only first 31 chars are significant. Naming same as C++
+
+* Function overloading is absent in C
+* There are no modifiers
+* Data types are the same
+	{{./pasted_image.png}}
+* Default value is garbage
+* ''typedef'' is used for making long datatypes short: it is a preprocessor tool. 
+{{{code: lang="c" linenumbers="True"
+typedef unsigned long ll
+}}}
+
+* Has Java style explicit conversions.
+* Functions and structs are the only mechanism in C.
+* Functions cannot come inside any other structure.
+--------------------
+STD(IN and OUT)
+* printf("skeleton", data) - returns a string equal to total characters printed
+* scanf("skelteon", data_address)
+{{./pasted_image001.png?width=350}}
+--------------------

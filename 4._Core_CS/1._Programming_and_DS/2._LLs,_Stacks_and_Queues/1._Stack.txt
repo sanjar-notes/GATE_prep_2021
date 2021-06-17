@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-08T17:35:08+05:30
+
+====== 1. Stack ======
+Created Monday 08 February 2021
+
+=== Notation for expressions ===
+* postfix - operators come after the operands. e.g. a+b → ab+. General formula: ''exp(infix) → exp + operand2 + operator''
+* prefix - operators come before the operands. e.g. +ab. General formula: ''exp(infix) → operator + exp + operand2''
+* infix - the usual math like notation
+mAid: exp comes before operand2 in all non-infix ones. Eb+ and +Eb, where b → operand2 and + → operator. The remaining prefix is E.
+
+=== Converting notations ===
+**Infix to postfix/prefix(easier without stack)**
+Algo1:
+	* Run through E and mark each compound term according to precedence and associativity rules. Do this for the **current level only.**
+	* Traverse through E and place each compound term as a leaf, whenever you encounter an operator, place it as the first leaf(in pre) or the last leaf(in post) among the current siblings. You always go from left to right.
+	* Do this for each compound term until we have pure leaves(variables).
+	* The in-order traversal is the answer.
+
+Algo2:
+	* Run through E and mark each compound term according to precedence and associativity rules. Do this for the **current level only.**
+	* Assume the expression to be of the form E + b, where b is the last term.
+	* Just make it Eb+ or +Eb, and do the same for the E recursively, until E is empty.
+
+**Postfix/prefix to infix(stack is required)**
+Algo1(post to infix):
+	* Read L → R for post and reverse for pre(right first).
+	* If operand, push to stack.
+	* If operator, apply it on two recent operands(order same as infix) and push it back into the stack.
+	* Continue, until the input ends. The element in the stack is the answer.
+Algo2:
+	* Try to get back E+2 from Eb+ or +Eb, recursively(for each raw term)
+	* To identify E and b(both are compound terms):
+		1. E must have an operand at the end, or be a single variable.
+		2. If it becomes difficult to get, use the fact that k operands have k-1 operators in the front/back.

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-08T02:14:29+05:30
+
+====== 4. Memory Allocation ======
+Created Monday 08 February 2021
+
+* To allocate memory, we have 3 functions:
+	1. malloc(size_in_bytes) - returns a void pointer
+	2. calloc(number_of_elements, size_of_an_elemenent) - returns void * - Used for contiguous memory allocation
+	3. realloc(old_ptr, new_size) - returns void*
+* For freeing memory - free(ptr), part of the memory cannot be deallocated.
+

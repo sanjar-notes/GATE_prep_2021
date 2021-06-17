@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T08:14:59+05:30
+
+====== 2. Basic Concepts ======
+Created Saturday 30 January 2021
+
+=== Addition Theorem of Probability ===
+''P(A ∪ B) = P(A) + P(B) - P(A ∩ B)''
+* A special case: ''P(A ∪ B) = P(A) + P(B)'', iff A and B are disjoint.
+* The theorem is generalizable.
+* Keyword: **OR/UNION**
+
+=== Dependence of events ===
+* **Mutually** **indepenent events** - Two events whose probability remains the same due occurence of the other event. This includes the order of occurrence of the events. Example - Flipping a fair coin for the first time vs flipping it the 7th time.
+* **Dependent events** - Events are said to be dependent if the occurence of one causes a change in the probability of the other. Flipping a coin for the first time vs getting 2 heads in 4 tosses - we see that the two events are linked.
+
+=== Conditional Probability ===
+* This is a concept in probability used to deal with dependent events.
+* P(A | B) is the "probability of event A given B has already occurred"
+* ''P(A | B) = P(A ∩ B)/P(B)''
+* For independent events - P(A|B) is the same as P(A), and P(B|A) is the same as P(B).
+* ''P(A ∩ B) = P(A) * P(B)'' holds if and only if A and B are independent. This serves as a criteria for independence.
+
+=== Multiplication Theorem of Probability ===
+This follows from conditional probability.
+* ''P(∩A''_{''i''}'') = ΠP(A''_{''i''}'')'' given all events are independent.
+* This is probability when "Both A and B" occur, and is generalizable.
+* Keyword: **AND/INTERSECTION** 
+
+=== Complement event ===
+This is the probability for "not A"
+''P(A') = 1 - P(A)''
+
+=== Algebra of Probabilities ===
+* Complement, addition and multiplication theorems are used to calculate probabilities for events.
+* All the set identities can be used directly i.e just enclose each compound term by ''P()''. Example: ''P(A - B) = P(A) - P(A ∩ B)'', because ''A - B = A - A ∩ B''
+
+=== Compound Inequality ===
+The following inequality always holds
+{{./pasted_image.png}}

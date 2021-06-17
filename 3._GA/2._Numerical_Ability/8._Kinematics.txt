@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:10:40+05:30
+
+====== 8. Kinematics ======
+Created Monday 01 February 2021
+
+* Instantaneous speed(speed) = distance covered in some time/time interval
+* Average speed = (total distance)/(total time taken)
+
+=== Average speed ===
+* If an object travels with speed v_{1} and v_{2} for equal time in a journey, then v_{avg} = (v_{1}+v_{2})/2
+* If an object travels with speed v_{1} and v_{2} for equal distance in a journey, then v_{avg} = 2v_{1}v_{2}/(v_{1}+v_{2})
+
+=== Crossing ===
+Object lengths a and b. Speeds v_{a} and v_{b}
+* Time if(same direction) = (a+b)/|Δv|
+* Time if(opposite direction) = (a+b)/(v_{a}+v_{b})

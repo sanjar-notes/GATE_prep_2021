@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-13T03:07:45+05:30
+
+====== 4. Greedy algorithms ======
+Created Saturday 13 February 2021
+
+* We attempt to guess a simple(myopic) rule which may lead to an optimal solution.
+* Many problems can be solved using the greedy approach, but not all problems.
+* It is generally difficult to prove the correctness of greedy algorithms. This is subjective.
+* Greedy solutions are fairly obvious to think of and code.
+
+=== Examples of greedy problems ===
+* Prims algorithm
+* Kruskal's algorithm
+* Knapsack problem

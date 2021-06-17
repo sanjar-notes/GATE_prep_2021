@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T19:38:30+05:30
+
+====== 0. Word ======
+Created Tuesday 02 February 2021
+
+A word is a sequence of characters.

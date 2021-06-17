@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-24T05:22:55+05:30
+
+====== 2. Types of functions ======
+Created Sunday 24 January 2021
+
+1. **One-one(aka injective)** - If each pre-image has a unique image.
+	* |Domain| = |Range|
+2. **Onto(aka surjective)** - If range covers the whole codomain.
+	* |Range| = |Codomain|
+3. **Many-one function** - A function where atleast two inputs map to the same output. In other words, a function that is not one-one.
+	* |Domain| > |Range|
+4. **Into function** - A function that is not onto. i.e Not all points in the codomain are covered.
+	* |Range| < |Codomain|
+5. **Constant function** - If the all pre-images(inputs) map to the same image(output).
+	* |Range| = 1
+6. **Identity function** - If output is the same as input for all inputs.
+	* f(x) = x
+	* They are both one-one and onto
+
+Maid: All types are just opposites of one-one and onto.
+
+=== Special types of function ===
+1. Bijective Function - A function that is both one-one and onto
+2. Inverse Function - f^{-1} is said to be the inverse of f if for every value in Range f^{-1} returns the input value in the Domain.
+	* Inverse exists only for bijective functions
+	* Inverse is unique.
+

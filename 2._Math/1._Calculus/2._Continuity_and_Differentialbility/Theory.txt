@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T23:48:02+05:30
+
+====== Theory ======
+Created Monday 18 January 2021
+

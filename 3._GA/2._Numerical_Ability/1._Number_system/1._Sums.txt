@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T00:53:14+05:30
+
+====== 1. Sums ======
+Created Thursday 04 February 2021
+
+1. Sum of first natural numbers
+	{{./pasted_image.png}}
+2. Sum of square of first n natural numbers
+	{{./pasted_image001.png}}
+3. Sum of cube of first n natural numbers
+	{{./pasted_image002.png}}

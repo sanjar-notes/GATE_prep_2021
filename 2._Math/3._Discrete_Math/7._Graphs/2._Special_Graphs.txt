@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-26T11:54:34+05:30
+
+====== 2. Special Graphs ======
+Created Tuesday 26 January 2021
+
+There are 4 kinds of special graphs:
+1. Complete graph(K_{n}) - A graph with n vertices where each edge is connected to every other edge.
+	* n≥1
+	* Noncomplete - word for not complete
+	* |E| = ^{|v|}C_{2} = v*(v-1)/2
+{{./pasted_image.png}}
+2. Cycle graph(C_{n}) - A graph where all edges combine to form an edge.
+	* n ≥ 3
+	* |E| = n
+3. Wheel(W_{n}) - A graph like a wheel
+	* The axle node is not counted
+	* n ≥ 3
+	* |E| = 2*v
+{{./pasted_image001.png}}
+4. n-Cube(Q_{n}) - An n dimensional hypercube is a graph containing:
+	* Nodes - binary number ≤ n
+	* Edge - connects nodes that differ by 1
+	* Graph may not be planar.
+{{./pasted_image002.png}}
+
+=== More graphs ===
+* Regular graph - A graph where every vertex has the same degree.
+* Tree graph(just tree) - a connected acyclic(without a cycle) graph

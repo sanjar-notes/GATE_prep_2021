@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-22T03:41:21+05:30
+
+====== 3. GA ======
+Created Friday 22 January 2021
+
+* **Verbal Aptitude(English)**
+Basic English grammar: tenses, articles, adjectives, prepositions, conjunctions, verb-noun agreement, and other parts of speech
+Basic vocabulary: words, idioms, and phrases in context Reading and comprehension
+Narrative sequencing
+
+* **Quantitative Aptitude**
+Data interpretation: data graphs (bar graphs, pie charts, and other graphs representing data), 2- and 3-dimensional plots, maps, and tables
+Numerical computation and estimation: ratios, percentages, powers, exponents and logarithms, permutations and combinations, and series
+Mensuration and geometry
+Elementary statistics and probability
+* **Analytical Aptitude**
+Logic: deduction and induction
+Analogy
+Numerical relations and reasoning
+* **Spatial Aptitude**
+Transformation of shapes: translation, rotation, scaling, mirroring, assembling, and grouping
+Paper folding, cutting, and patterns in 2 and 3 dimensions
+

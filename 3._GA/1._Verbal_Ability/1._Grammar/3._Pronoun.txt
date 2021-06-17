@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T17:45:00+05:30
+
+====== 3. Pronoun ======
+Created Tuesday 02 February 2021
+
+* A pronoun is a "replacement for a noun". This is used to make speech shorter and concise.
+
+David is a good student. David gets straight A’s in all
+the subjects.
+
+vs
+
+David is a good student. //**He**// gets straight A’s in all the
+subjects.
+--------------------
+There are many kinds of pronouns:
+1. Reflexive - self referrence
+2. Emphatic - pronoun with an additional word for emphasis. Example: He //himself// is going.
+3. Demonstrative prounoun - this, that, their, those
+4. Indefinite pronoun - Somebody, anybody, one
+5. Distributive pronoun - Talks about all the things in a set - Neither, either, each
+6. Relative - describes relation with the noun - who, whose, whom
+7. Interrogative Pronoun - what, who, which, where

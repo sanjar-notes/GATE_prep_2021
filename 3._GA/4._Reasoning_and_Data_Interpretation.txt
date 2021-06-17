@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:08:25+05:30
+
+====== 4. Reasoning and Data Interpretation ======
+Created Monday 01 February 2021
+
+* Only rule: Don't use knowledge or experience in reasoning questions, except for meaning of words, i.e take the statements literally to be true.

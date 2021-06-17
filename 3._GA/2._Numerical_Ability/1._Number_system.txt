@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:09:24+05:30
+
+====== 1. Number system ======
+Created Monday 01 February 2021
+
+=== Base Systems ===
+* Binary: radix = 2, symbols = {0, 1}
+* Decimal: radix=10, symbols = {0 to 9}
+* Octal: radix=8, symbols = {0 to 7}
+* Hexadecimal: radix=16, symbols = {0 to 10, A, B, C, D, E, F}, case insensitive.
+

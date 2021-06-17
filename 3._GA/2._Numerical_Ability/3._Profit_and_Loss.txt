@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-01T10:09:42+05:30
+
+====== 3. Profit and Loss ======
+Created Monday 01 February 2021
+
+=== Jargon ===
+* Cost Price → The price set by seller.
+* Selling price → The price at which the object is finally sold.
+* Marked price → Same as CP, except that it is always changeable via discounts. Mostly ~~struck~~ to attract customers.
+
+**Profit/Loss = (SP - CP)/CP * 100**
+Positive means profit, negative means loss.

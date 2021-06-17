@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-08T02:23:36+05:30
+
+====== 2. LLs, Stacks and Queues ======
+Created Monday 08 February 2021
+
+* LL's - Each node has the address of the next one.
+=== Some basic operations ===
+* Insertion/deletion/Search - θ(n)
+* Prepend - θ(1)
+* Reversing a LL - θ(n)
+* Merging two LLs - θ(

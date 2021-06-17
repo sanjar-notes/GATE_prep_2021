@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-13T03:01:13+05:30
+
+====== 3. Divide and Conquer ======
+Created Saturday 13 February 2021
+
+This is a widely used technique for solving problems, it consists of three steps:
+1. Breaking the problem into several sub-problems that are similar to the original problem but smaller in size.
+2. Solve the sub-problems recursively(successively and independently)
+3. Combine the solutions.
+=== Examples of divide and conquer ===
+* Merge and quick sort
+* Binary Tree traversals
+* Binary search
+* Multiplication of large integers
+* Matrix multiplication: Strassen's algorithm
+* Closest-pair and convex-hull algorithm
