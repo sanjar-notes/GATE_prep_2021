@@ -4,7 +4,7 @@
 I did't much during college, so now, this 😃️.
 
 ## How
-Used some books (libgen.is 👀️), tried to prove theorems, read a little about people in tech - [Konrad Zuse](https://en.wikipedia.org/wiki/Konrad_Zuse), [Alan Turing](https://www.pbs.org/newshour/science/8-things-didnt-know-alan-turing). Did not practice a lot.
+Used some books [Library Genesis]libgen.is) 👀️), tried to prove theorems, read a little about people in tech - [Konrad Zuse](https://en.wikipedia.org/wiki/Konrad_Zuse), [Alan Turing](https://www.pbs.org/newshour/science/8-things-didnt-know-alan-turing). Did not practice a lot.
 
 ## What
 Mental models for the [GATE](https://en.wikipedia.org/wiki/Graduate_Aptitude_Test_in_Engineering) exam.
