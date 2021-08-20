@@ -12,6 +12,6 @@ They're not fully complete, but most are.
 
 # Usage
 1. Download the folder. 
-2. Download [Zim](https://zim-wiki.org/). Notebook tool. Works on Windows, Linux and Mac.
+2. Download [Zim](https://zim-wiki.org/) - a notebook tool. Works on Windows, Linux and Mac.
 3. Open the notebook.zim file with Zim.
 4. Start hacking 🎮️ 😂️👍️.
